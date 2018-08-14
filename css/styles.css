@@ -535,6 +535,7 @@ ins:hover table {
     left: 244px;
 }
 #HomeLink {
+    top: 104px;  
     position: absolute;
     display: block;
     width: 383px;
