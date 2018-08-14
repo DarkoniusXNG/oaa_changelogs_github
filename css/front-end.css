@@ -7,7 +7,7 @@
 body {
   min-width: 100%;
   min-height: 100%;
-  position: absolute;
+  /*position: absolute;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
   font-family: Arial, sans-serif;
   font-weight: lighter;
@@ -26,7 +26,7 @@ body.compute-body-size-pending {
 }
 /* default style for silex elements */
 .editable-style{
-  position: absolute;
+  /*position: absolute;
   box-sizing: content-box; /* this is needed to set the size of elements with a border (though it could be omited since this is the default value) */
 }
 .silex-element-content{
