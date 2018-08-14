@@ -24,7 +24,7 @@ $J = jQuery;
         });
         $( '#BGHeroes figure img' ).each( function () {
             var strHeroID = $( this ).attr( 'data-id' );
-            if (strHeroID !='sohei'){
+            if (strHeroID !='customhero'){
             $( this ).attr( 'src', 'http://cdn.dota2.com/apps/dota2/images/heroes/' + strHeroID + '_full.png' );
             }
         });
