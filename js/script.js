@@ -1,12 +1,9 @@
 
 $J = jQuery;
-
-	
-
-    $( function () {
+	$( function () {
         $( '#BGItems figure img' ).each( function () {
             var strItemID = $( this ).attr( 'data-id' );
-            if (strItemID !='custom_item'){
+            if (strItemID !='customitem'){
             $( this ).attr( 'src', 'http://cdn.dota2.com/apps/dota2/images/items/' + strItemID + '_lg.png' );
             }
         });
