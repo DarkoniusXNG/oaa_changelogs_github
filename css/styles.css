@@ -532,14 +532,16 @@ ins:hover table {
     width: 871px;
     height: 301px;
     margin-top: 30px;
+    margin-left: auto; 
+    margin-right: auto;
     left: 244px;
 }
 #HomeLink {
     top: 104px;  
     position: absolute;
     display: block;
-    width: 383px;
-    height: 53px;
+    width: 309px;
+    height: 38px;
     color: #CCCCCC;
     font-size: 18px;
     text-transform: uppercase;
@@ -548,6 +550,8 @@ ins:hover table {
     padding-top: 15px;
     padding-left: 74px;
     box-sizing: inherit;
+    margin-left: auto; 
+    margin-right: auto;
 }
 #HomeLink:hover
 {
