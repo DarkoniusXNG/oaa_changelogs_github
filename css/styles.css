@@ -526,42 +526,6 @@ ins:hover table {
   width: 113px;
   height: 64px;
 }
-#HomeBox {
-    position: relative;
-    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
-    width: 871px;
-    height: 301px;
-    margin-top: 30px;
-    margin-left: auto; 
-    margin-right: auto;
-    left: 244px;
-}
-#HomeLink {
-    top: 104px;  
-    position: absolute;
-    display: block;
-    width: 309px;
-    height: 38px;
-    color: #CCCCCC;
-    font-size: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1.35px;
-    padding-top: 15px;
-    padding-left: 74px;
-    box-sizing: inherit;
-    margin-left: auto; 
-    margin-right: auto;
-}
-#HomeLink:hover
-{
-    background-color: rgba( 255, 255, 255, 0.05 );
-}
-#HomeLink img
-{
-    margin-bottom: -3px;
-    margin-right: 6px;
-}
 .silex-id-1534163797909-1 {
   width: 1250px;
   overflow: auto;
