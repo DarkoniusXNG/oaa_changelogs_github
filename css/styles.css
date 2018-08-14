@@ -547,6 +547,7 @@ ins:hover table {
     letter-spacing: 1.35px;
     padding-top: 15px;
     padding-left: 74px;
+    box-sizing: inherit;
 }
 #HomeLink:hover
 {
