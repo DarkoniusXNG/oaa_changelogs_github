@@ -1,3 +1,4 @@
+	$J = jQuery;
 	$( function () {
         $( '#BGItems figure img' ).each( function () {
             var strItemID = $( this ).attr( 'data-id' );
