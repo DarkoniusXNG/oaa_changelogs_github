@@ -1,0 +1,529 @@
+
+body {
+  background-color: #0d0d0d; 
+  margin-left: auto; 
+  margin-right: auto;
+  transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
+}
+.Container {
+  min-width: 1050px;
+}
+.SubContainer {
+  width: 100%; 
+  position: relative;
+}
+ul, li {
+  font-family: 'Arial';
+  color: #999999;
+  font-size: 18px;
+  line-height: 30px;
+  list-style-type: circle;
+  padding-bottom: 5px;
+}
+.Bold {
+  font-weight: normal;
+  color: #FFFFFF;
+}
+figure {
+  font-family: 'Arial';
+  color: #999999;
+  font-size: 18px;
+  line-height: 30px;
+  display: block; width: 949px;
+  background-color: rgba( 0, 0, 0, 0.5);
+  padding: 42px 50px 42px 50px;
+  margin: 0px 0px 2px 0px;
+}
+figure ul {
+  padding-left: 18px;
+}
+figure h1 {
+  display: block;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.Reworked {
+  padding-left: 5px;
+  color: #FF5307;
+}
+.Scepter {
+  padding-left: 5px;
+  color: #00CCFF;
+}
+.Captains {
+  padding-left: 5px;
+  color: #36D15E;
+}
+em, em del, ins {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-style: normal;
+  text-decoration: none;
+}
+em {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url('../assets/question_mark.png');
+}
+em del {
+  display: block;
+  visibility: hidden;
+  width: 860px;
+  background-color: #261E1C;
+  color: #9f7e73;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 17px;
+  left: 92px;
+  right: 0px;
+  z-index: 1;
+}
+em:hover del {
+  visibility: visible;
+}
+ins {
+  display: inline-block;
+  color: #BF9E93;
+}
+ins:hover {
+  color: #FFFFFF;
+}
+ins table {
+  display: block;
+  visibility: hidden;
+  background-color: #261E1C;
+  color: #9f7e73;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid black;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 1;
+  font-size: 14px;
+  line-height: 18px;
+}
+ins table td {
+  font-family: 'Arial';
+  font-size: 14px;
+  padding-right: 10px;
+  text-align: right;
+}
+ins table td b {
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: normal;
+  color: #EFCEC3;
+}
+ins:hover table {
+  visibility: visible;
+}
+.MapChange .Inner {
+  padding-left: 53px;
+  padding-top: 44px;
+  padding-right: 500px;
+}
+.MapChange h2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding-bottom: 2px;
+}
+.MapChange ul {
+  padding-left: 16px;
+}
+.TalentTreeExample.Left .Inner {
+  padding-left: 52px;
+  padding-top: 51px;
+}
+.TalentTreeExample.Right .Inner {
+  padding-left: 541px;
+  padding-top: 51px;
+}
+.TalentTreeExample table {
+  margin-left: -5px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #777E80;
+  text-shadow: 1px 1px 2px #000000;
+}
+.TalentTreeExample table td {
+  padding: 0px;
+}
+.TalentTreeExample table tr td:nth-of-type(1), .TalentTreeExample table tr td:nth-of-type(3) {
+  padding: 9px;
+  width: 215px;
+  height: 57px;
+}
+.TalentTreeExample table tr td:nth-of-type(2) {
+  color: #EECC8A;
+  width: 25px;
+  text-shadow: 0px 0px 10px rgba( 244, 98, 4, 0.8);
+}
+.TalentTreeExample p {
+  color: #657979;
+  font-size: 18px;
+  width: 420px;
+  line-height: 28px;
+}
+#BG2, #BG2 .Inner {
+  background-image: url('../assets/bg_02.jpg');
+  background-color: #000000;
+  height: 1053px;
+}
+#BG2 .Inner {
+  padding-top: 39px;
+  padding-left: 45px;
+}
+#BG2 .Inner.VideoMask {
+  background-image: url('../assets/video_mask.png');
+}
+#BG3, #BG3 .Inner {
+  background-image: url('../assets/bg_03.jpg');
+  background-color: #000000;
+  height: 514px;
+}
+#BG3 .Inner {
+  padding-top: 62px;
+  padding-left: 53px;
+}
+#BG3 p {
+  font-size: 24px;
+  padding-top: 7px;
+  padding-left: 1px;
+  line-height: 40px;
+}
+#BG3 a {
+  display: block;
+  position: absolute;
+  font-family: 'Arial';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  color: #FFFFFF;
+  width: 227px;
+  height: 53px;
+  text-align: center;
+  padding-top: 15px;
+}
+#BG3 a:hover {
+  background-color: rgba( 255, 255, 255, 0.1);
+}
+#BG3 a:nth-of-type( 1) {
+  left: 54px;
+  top: 322px;
+}
+#BG3 a:nth-of-type( 2) {
+  left: 293px;
+  top: 322px;
+}
+#BG3 a:nth-of-type( 3) {
+  left: 532px;
+  top: 322px;
+}
+#BG3 a:nth-of-type( 4) {
+  left: 771px;
+  top: 322px;
+}
+#BG3 a:nth-of-type( 5) {
+  left: 172px;
+  top: 385px;
+}
+#BG3 a:nth-of-type( 6) {
+  left: 411px;
+  top: 385px;
+}
+#BG3 a:nth-of-type( 7) {
+  left: 650px;
+  top: 385px;
+}
+#BG4, #BG4 .Inner {
+  background-image: url('../assets/bg_04.jpg');
+  background-color: #141517;
+  height: 1279px;
+}
+#BG4 .Inner {
+  padding-top: 107px;
+  padding-left: 53px;
+}
+#BG4 h3 {
+  padding-top: 18px;
+  padding-left: 23px;
+  letter-spacing: 3px;
+}
+#BG4 p {
+  position: absolute;
+  display: block;
+  top: 1127px;
+  font-size: 22px;
+  color: #999999;
+  padding-left: 49px;
+  padding-right: 80px;
+  line-height: 36px;
+}
+#BG5, #BG5 .Inner {
+  background-image: url('../assets/bg_05.jpg');
+  background-color: #141517;
+  height: 962px;
+}
+#BG5 .Inner {
+  padding-left: 50px;
+}
+#BG5 video {
+  margin-left: -2px;
+  width: 949px;
+  height: 590px;
+}
+#BG5 p {
+  padding-top: 16px;
+  padding-left: 52px;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  width: 680px;
+}
+#BG5 a, #BG5 a:visited, #BG5 a:active {
+  color: #FF6600;
+}
+#BG5 a:hover {
+  color: #FFFFFF;
+}
+#BG6, #BG6 .Inner {
+  background-image: url('../assets/bg_06.jpg');
+  background-color: #141517;
+  height: 664px;
+}
+#BG7, #BG7 .Inner {
+  background-image: url('../assets/bg_07.jpg');
+  background-color: #141517;
+  height: 665px;
+}
+#BG8, #BG8 .Inner {
+  background-image: url('../assets/bg_08.jpg');
+  background-color: #141517;
+  height: 661px;
+}
+#BG9, #BG9 .Inner {
+  background-image: url('../assets/bg_09.jpg');
+  background-color: #141517;
+  height: 665px;
+}
+#BG10, #BG10 .Inner {
+  background-image: url('../assets/bg_10.jpg');
+  background-color: #141517;
+  height: 658px;
+}
+#BG11, #BG11 .Inner {
+  background-image: url('../assets/bg_11.jpg');
+  background-color: #141517;
+  height: 1546px;
+}
+#BG11 .Inner {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+#BG11 figure {
+  position: relative;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+#BG12, #BG12 .Inner {
+  background-image: url('../assets/bg_12.jpg');
+  background-color: #141517;
+  height: 1057px;
+}
+#BG12 .Inner {
+  padding-left: 50px;
+  padding-top: 762px;
+}
+#BG12 figure {
+  height: 800px;
+  font-size: 22px;
+  line-height: 32px;
+}
+#BG13, #BG13 .Inner {
+  background-image: url('../assets/bg_13.jpg');
+  background-color: #141517;
+  height: 1197px;
+}
+#BG13 .Inner {
+  padding-left: 50px;
+}
+#BG13 video {
+  width: 949px;
+  height: 594px;
+}
+#BG13 p {
+  padding-top: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#BG14, #BG14 .Inner {
+  background-image: url('../assets/bg_14.jpg');
+  background-color: #141517;
+  height: 1161px;
+}
+#BG14 .Inner {
+  padding-top: 800px;
+  padding-left: 51px;
+}
+#BG14 figure {
+  padding-top: 30px;
+  font-size: 22px;
+  line-height: 32px;
+}
+#BG15, #BG15 .Inner {
+  background-image: url('../assets/bg_15.jpg');
+  background-color: #141517;
+  height: 398px;
+}
+#BG16, #BG16 .Inner {
+  background-image: url('../assets/bg_16.jpg');
+  background-color: #141517;
+  height: 626px;
+}
+#BG17, #BG17 .Inner {
+  background-image: url('../assets/bg_17.jpg');
+  background-color: #141517;
+  height: 647px;
+}
+#BG18, #BG18 .Inner {
+  background-image: url('../assets/bg_18.jpg');
+  background-color: #141517;
+  height: 404px;
+}
+#BG19, #BG19 .Inner {
+  background-image: url('../assets/bg_19.jpg');
+  background-color: #141517;
+  height: 403px;
+}
+#BG20, #BG20 .Inner {
+  background-image: url('../assets/bg_20.jpg');
+  background-color: #141517;
+  height: 637px;
+}
+#BG21, #BG21 .Inner {
+  background-image: url('../assets/bg_21.jpg');
+  background-color: #141517;
+  height: 654px;
+}
+#BG21 p {
+  padding-top: 35px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+#BG21.MapChange .Inner {
+  padding-right: 480px;
+}
+#BG22, #BG22 .Inner {
+  background-image: url('../assets/bg_22.jpg');
+  background-color: #141517;
+  height: 748px;
+}
+#BG23, #BG23 .Inner {
+  background-image: url('../assets/bg_23.jpg');
+  background-color: #141517;
+  height: 1532px;
+}
+#BG23 .Inner {
+  padding-top: 820px;
+  padding-left: 51px;
+}
+#BG23 p {
+  font-size: 24px;
+  color: #FFFFFF;
+  padding-bottom: 32px;
+}
+.Container:not(.BGRepeater) {
+  margin-bottom: 25px;
+}
+.OrangeBoxHeader {
+  margin-bottom: 25px;
+  display: table;
+  font-family: 'Arial';
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  padding: 11px 19px 11px 19px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #47688A, #29374C);
+}
+.BGRepeater {
+  background-image: url('../assets/bg_repeater.jpg');
+  background-repeat: repeat-y;
+  background-color: #141517;
+}
+#BGGameplay {
+  background-image: url('../assets/bg_12.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#BGGameplay .Inner {
+  padding-top: 800px;
+  padding-left: 50px;
+  padding-bottom: 75px;
+}
+#BGItems {
+  background-image: url('../assets/overlay_items_top.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#BGItems .Inner {
+  padding-top: 843px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+#BGItems figure img {
+  width: 85px;
+  height: 64px;
+}
+#BGItems .Inner figure:nth-of-type(1) {
+  background-image: url('../assets/overlay_items_bleed.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: transparent;
+  opacity: 1;
+}
+#BGHeroes {
+  background-image: url('../assets/overlay_heroes_top.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#BGHeroes .Inner {
+  padding-top: 968px;
+  padding-left: 50px;
+  padding-bottom: 100px;
+}
+#BGHeroes figure ol {
+  background-image: url('../assets/hero_tree_icon.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  padding: 0px 0px 0px 80px;
+  margin: 10px 0px 0px 0px;
+  list-style-type: none;
+}
+#BGHeroes figure ol b {
+  display: inline-block;
+  padding: 0px 15px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+#BGHeroes figure img {
+  width: 113px;
+  height: 64px;
+}
