@@ -1,8 +1,7 @@
 body {
   background-color: #0d0d0d;
   background-image: url('../assets/bg_repeater.jpg');
-  background-repeat: repeat-y;
-  width: 1250px;
+  width: 1366px;
   margin-left: auto; 
   margin-right: auto;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
