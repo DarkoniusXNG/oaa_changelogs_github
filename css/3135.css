@@ -4,17 +4,17 @@ body {
   margin-right: auto;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
 }
+div {
+  width: 100%; 
+  margin: auto;
+}
 .Container {
   min-width: 1050px;
 }
 .SubContainer {
   width: 100%; 
-  position: relative;
-}
-.Inner {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  margin: auto;
+  /*position: relative;*/
 }
 ul, li {
   font-family: 'Arial';
