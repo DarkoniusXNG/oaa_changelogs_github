@@ -19,17 +19,14 @@ ul, li {
   list-style-type: circle;
   padding-bottom: 5px;
 }
-.Bold {
-  font-weight: normal;
-  color: #FFFFFF;
-}
 figure {
   font-family: 'Arial';
   color: #999999;
   font-size: 18px;
   line-height: 30px;
-  display: block; width: 949px;
-  background-color: rgba( 0, 0, 0, 0.5);
+  display: block; 
+  width: 949px;
+  /*background-color: rgba( 0, 0, 0, 0.5);*/
   padding: 42px 50px 42px 50px;
   margin: 0px 0px 2px 0px;
 }
@@ -145,40 +142,7 @@ ins:hover table {
 .MapChange ul {
   padding-left: 16px;
 }
-.TalentTreeExample.Left .Inner {
-  padding-left: 52px;
-  padding-top: 51px;
-}
-.TalentTreeExample.Right .Inner {
-  padding-left: 541px;
-  padding-top: 51px;
-}
-.TalentTreeExample table {
-  margin-left: -5px;
-  text-align: center;
-  padding-bottom: 30px;
-  color: #777E80;
-  text-shadow: 1px 1px 2px #000000;
-}
-.TalentTreeExample table td {
-  padding: 0px;
-}
-.TalentTreeExample table tr td:nth-of-type(1), .TalentTreeExample table tr td:nth-of-type(3) {
-  padding: 9px;
-  width: 215px;
-  height: 57px;
-}
-.TalentTreeExample table tr td:nth-of-type(2) {
-  color: #EECC8A;
-  width: 25px;
-  text-shadow: 0px 0px 10px rgba( 244, 98, 4, 0.8);
-}
-.TalentTreeExample p {
-  color: #657979;
-  font-size: 18px;
-  width: 420px;
-  line-height: 28px;
-}
+
 #BG2, #BG2 .Inner {
   background-image: url('../assets/bg_02.jpg');
   background-color: #000000;
@@ -188,9 +152,7 @@ ins:hover table {
   padding-top: 39px;
   padding-left: 45px;
 }
-#BG2 .Inner.VideoMask {
-  background-image: url('../assets/video_mask.png');
-}
+
 #BG3, #BG3 .Inner {
   background-image: url('../assets/bg_03.jpg');
   background-color: #000000;
@@ -527,10 +489,10 @@ ins:hover table {
   height: 64px;
 }
 .silex-id-1534163797909-1 {
-  width: 1250px;
+  width: 1366px;
   overflow: auto;
   color: #999999;
-  background-color: #0d0d0d;
+  /*background-color: #0d0d0d;*/
   min-height: 10000px;
   margin-left: auto;
   margin-right: auto;
