@@ -6,3 +6,13 @@ body {
   margin-right: auto;
   transition: min-width .5s ease-out, min-height .5s ease-out;
 }
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+a {
+  font-size: 30px;
+}
