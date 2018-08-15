@@ -9,13 +9,17 @@ body {
 h1 {
   font-size: 40px;
   color: red;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 h2 {
   font-size: 35px;
   color: orange;
+  text-align: center;
 }
 a {
   font-size: 30px;
   color: white;
+  text-decoration: none;
 }
