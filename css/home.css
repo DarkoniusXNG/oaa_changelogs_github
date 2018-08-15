@@ -8,11 +8,14 @@ body {
 }
 h1 {
   font-size: 40px;
+  color: red;
 }
 
 h2 {
   font-size: 35px;
+  color: orange;
 }
 a {
   font-size: 30px;
+  color: white;
 }
