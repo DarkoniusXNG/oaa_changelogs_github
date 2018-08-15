@@ -1,5 +1,6 @@
 body {
-  background-color: #0d0d0d; 
+  background-color: #0d0d0d;
+  width: 1250px;
   margin-left: auto; 
   margin-right: auto;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
@@ -8,8 +9,7 @@ body {
   min-width: 1050px;
 }
 .SubContainer {
-  width: 100%; 
-  margin: auto;
+  width: 100%;
   position: relative;
 }
 ul, li {
