@@ -4,17 +4,13 @@ body {
   margin-right: auto;
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
 }
-* {
-  width: 100%; 
-  margin: auto;
-}
 .Container {
   min-width: 1050px;
 }
 .SubContainer {
   width: 100%; 
   margin: auto;
-  /*position: relative;*/
+  position: relative;
 }
 ul, li {
   font-family: 'Arial';
@@ -32,7 +28,7 @@ figure {
   display: block; width: 949px;
   background-color: rgba( 0, 0, 0, 0.5);
   padding: 42px 50px 42px 50px;
-  margin: 0px 0px 2px 0px;
+  /*margin: 0px 0px 2px 0px;*/
 }
 figure ul {
   padding-left: 18px;
