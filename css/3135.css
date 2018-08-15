@@ -21,7 +21,7 @@ h1 {
 ul, li {
   font-family: 'Arial';
   color: #999999;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   list-style-type: circle;
   padding-bottom: 5px;
@@ -29,7 +29,7 @@ ul, li {
 figure {
   font-family: 'Arial';
   color: #999999;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
   display: block; width: 949px;
   /*background-color: rgba( 0, 0, 0, 0.5);*/
