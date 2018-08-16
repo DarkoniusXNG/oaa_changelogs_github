@@ -1,4 +1,3 @@
-	$J = jQuery;
 $( function () {
         $( '#BGItems figure img' ).each( 
 		function () {
@@ -16,4 +15,4 @@ $( function () {
 			}
 		}
 	);
-});
+})();
