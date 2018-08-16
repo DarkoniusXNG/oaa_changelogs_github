@@ -23,3 +23,7 @@ a {
   color: white;
   text-decoration: none;
 }
+img {
+    margin-left: auto;
+    margin-right: auto; 
+}
