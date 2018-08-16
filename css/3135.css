@@ -1,5 +1,4 @@
 body {
-  /*background-color: #0d0d0d;*/
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -49,7 +48,7 @@ figure h1 {
   padding-top: 15px;
   padding-bottom: 5px;
 }
-em, em del, ins {
+em, em del {
   margin: 0;
   padding: 0;
   border: 0;
@@ -129,13 +128,6 @@ em:hover del {
   width: 85px;
   height: 64px;
 }
-/*#BGItems .Inner figure:nth-of-type(1) {
-  background-image: url('../assets/overlay_items_bleed.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-color: transparent;
-  opacity: 1;
-}*/
 #BGHeroes {
   background-image: url('../assets/overlay_heroes_top.png');
   background-repeat: no-repeat;
@@ -145,20 +137,6 @@ em:hover del {
   padding-top: 968px;
   padding-left: 50px;
   padding-bottom: 100px;
-}
-#BGHeroes figure ol {
-  background-image: url('../assets/hero_tree_icon.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-  padding: 0px 0px 0px 80px;
-  margin: 10px 0px 0px 0px;
-  list-style-type: none;
-}
-#BGHeroes figure ol b {
-  display: inline-block;
-  padding: 0px 15px;
-  font-weight: normal;
-  color: #FFFFFF;
 }
 #BGHeroes figure img {
   width: 113px;
