@@ -31,7 +31,8 @@ figure {
   color: #999999;
   font-size: 20px;
   line-height: 30px;
-  display: block; width: 949px;
+  display: block; 
+  width: 949px;
   /*background-color: rgba( 0, 0, 0, 0.5);*/
   padding: 42px 50px 42px 50px;
   margin: 0px 0px 2px 0px;
@@ -128,13 +129,13 @@ em:hover del {
   width: 85px;
   height: 64px;
 }
-#BGItems .Inner figure:nth-of-type(1) {
+/*#BGItems .Inner figure:nth-of-type(1) {
   background-image: url('../assets/overlay_items_bleed.png');
   background-repeat: no-repeat;
   background-position: top center;
   background-color: transparent;
   opacity: 1;
-}
+}*/
 #BGHeroes {
   background-image: url('../assets/overlay_heroes_top.png');
   background-repeat: no-repeat;
