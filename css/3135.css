@@ -6,9 +6,14 @@ body {
   transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
 }
 h1 {
-  font-family: Arial;
+  font-family: 'Arial';
   font-size: 40px;
   color: #999999;
+}
+a {
+  font-family: 'Arial';
+  color: white;
+  text-decoration: none;
 }
 .Container {
   min-width: 1050px;
