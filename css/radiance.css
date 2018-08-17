@@ -1,10 +1,10 @@
 @font-face{
   font-family:'Radiance';
-	src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance.eot");
-	src:url("http://cdn.dota2.com/apps/dota2/fonts/radiance.eot?#iefix") format("embedded-opentype"),
-		  url("http://cdn.dota2.com/apps/dota2/fonts/radiance.woff") format("woff"),
-		  url("http://cdn.dota2.com/apps/dota2/fonts/radiance.ttf") format("truetype"),
-		  url("http://cdn.dota2.com/apps/dota2/fonts/radiance.svg#ywftsvg") format("svg");
+	src:url('../radiance_font/radiance.eot');
+	src:url('../radiance_font/radiance iefix.eot') format("embedded-opentype"),
+		  url('../radiance_font/radiance.woff') format("woff"),
+		  url('../radiance_font/radiance.ttf') format("truetype"),
+		  url('../radiance_font/radiance.svg') format("svg");
 	font-weight:normal;
 	font-style:normal
 }
