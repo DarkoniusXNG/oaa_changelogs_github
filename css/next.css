@@ -140,7 +140,7 @@ em:hover del {
 #BGHeroes .Inner {
   padding-top: 0px;/*0px when small(no picture), 968px when big, 350px when five_heroes*/
   padding-left: 50px;
-  padding-bottom: 100px;/*0px when small, max:100px*/
+  padding-bottom: 0px;/*0px when small, max:100px*/
 }
 #BGHeroes figure img {
   width: 113px;
