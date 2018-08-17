@@ -109,14 +109,14 @@ em:hover del {
   background-color: #141517;
 }
 #BGGameplay {
-  /*background-image: url('../assets/overlay_gameplay_top.png.jpg');
+  background-image: url('../assets/bg_five_heroes.jpg');
   background-repeat: no-repeat;
-  background-position: top center;*/
+  background-position: top center;
 }
 #BGGameplay .Inner {
-  padding-top: 800px;
+  padding-top: 350px;/*50px when small patch, 800px when big*/
   padding-left: 50px;
-  padding-bottom: 75px;
+  padding-bottom: 0px;/*0px when small (no picture), 75px when big*/
 }
 #BGItems {
   /*background-image: url('../assets/overlay_items_top.png');
@@ -124,21 +124,21 @@ em:hover del {
   background-position: top center;*/
 }
 #BGItems .Inner {
-  padding-top: 843px;
+  padding-top: 0px;/* 0px when small, 843px when big*/
   padding-left: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;/* 0px when small (no picture), 100 px when big*/
 }
 #BGItems figure img {
   width: 85px;
   height: 64px;
 }
 #BGHeroes {
-  background-image: url('../assets/bg_five_heroes.jpg');
+  /*background-image: url('../assets/bg_five_heroes.jpg');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top center;*/
 }
 #BGHeroes .Inner {
-  padding-top: 968px;
+  padding-top: 0px;/*0px when small(no picture), 968px when big, 350px when five_heroes*/
   padding-left: 50px;
   padding-bottom: 100px;
 }
@@ -148,17 +148,30 @@ em:hover del {
 }
 #HubLinkContainer
 {
-    position: relative;
-    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
-    width: 871px;
-    height: 301px;
-    margin-top: 30px;
-    left: 244px;
+  position: relative;
+  background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
+  width: 871px;
+  height: 301px;
+  margin-top: 30px;
+  left: 244px;
+  line-height: normal;
 }
 #HubLink
 {
-    top: 104px;
-    left: 0px;
+  position: absolute;
+  display: block;
+  width: 383px;
+  height: 53px;
+  color: #CCCCCC;
+  font-family: 'Radiance';
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1.35px;
+  padding-top: 15px;
+  padding-left: 74px;  
+  top: 104px;
+  left: 0px;
+  line-height: normal;
 }
 #HubLink img
 {
