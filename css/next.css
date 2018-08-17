@@ -33,11 +33,10 @@ ul, li {
 figure {
   font-family: 'Radiance';
   color: #999999;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   display: block; 
   width: 949px;
-  /*background-color: rgba( 0, 0, 0, 0.5);*/
   padding: 42px 50px 42px 50px;
   margin: 0px 0px 2px 0px;
 }
@@ -110,9 +109,9 @@ em:hover del {
   background-color: #141517;
 }
 #BGGameplay {
-  background-image: url('../assets/bg_14.jpg');
+  /*background-image: url('../assets/overlay_gameplay_top.png.jpg');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top center;*/
 }
 #BGGameplay .Inner {
   padding-top: 800px;
@@ -120,9 +119,9 @@ em:hover del {
   padding-bottom: 75px;
 }
 #BGItems {
-  background-image: url('../assets/overlay_items_top.png');
+  /*background-image: url('../assets/overlay_items_top.png');
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: top center;*/
 }
 #BGItems .Inner {
   padding-top: 843px;
@@ -146,4 +145,27 @@ em:hover del {
 #BGHeroes figure img {
   width: 113px;
   height: 64px;
+}
+#HubLinkContainer
+{
+    position: relative;
+    background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
+    width: 871px;
+    height: 301px;
+    margin-top: 30px;
+    left: 244px;
+}
+#HubLink
+{
+    top: 104px;
+    left: 0px;
+}
+#HubLink img
+{
+    margin-bottom: -3px;
+    margin-right: 6px;
+}
+#HubLink:hover
+{
+    background-color: rgba( 255, 255, 255, 0.05 );
 }
