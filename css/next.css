@@ -148,12 +148,10 @@ em:hover del {
 }
 #HubLinkContainer
 {
-  /*position: relative;*/
   background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
-  width: 523px;/*old 871*/
+  width: 523px;
   height: 301px;
   margin-top: 30px;
-  /*left: 244px;*/
   line-height: normal;
   margin-left:auto;
   margin-right:auto;
@@ -172,7 +170,6 @@ em:hover del {
   padding-top: 15px;
   padding-left: 74px;  
   top: 104px;
-  /*left: 0px;*/
   line-height: normal;
 }
 #HubLink img
