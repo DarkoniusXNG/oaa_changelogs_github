@@ -148,20 +148,22 @@ em:hover del {
 }
 #HubLinkContainer
 {
-  position: relative;
+  /*position: relative;*/
   background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
-  width: 871px;
+  width: 523px;/*old 871*/
   height: 301px;
   margin-top: 30px;
-  left: 244px;
+  /*left: 244px;*/
   line-height: normal;
+  margin-left:auto;
+  margin-right:auto;
 }
 #HubLink
 {
-  position: absolute;
+  position: relative;
   display: block;
-  width: 383px;
-  height: 53px;
+  width: 310px;
+  height: 40px;
   color: #CCCCCC;
   font-family: 'Radiance';
   font-size: 18px;
@@ -170,7 +172,7 @@ em:hover del {
   padding-top: 15px;
   padding-left: 74px;  
   top: 104px;
-  left: 0px;
+  /*left: 0px;*/
   line-height: normal;
 }
 #HubLink img
