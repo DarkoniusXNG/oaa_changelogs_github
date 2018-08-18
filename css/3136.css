@@ -109,12 +109,12 @@ em:hover del {
   background-color: #141517;
 }
 #BGGameplay {
-  background-image: url('../assets/bg_five_heroes.jpg');
+  background-image: url('../assets/bg_tiny_sit.jpg');
   background-repeat: no-repeat;
   background-position: top center;
 }
 #BGGameplay .Inner {
-  padding-top: 350px;/*50px when small patch, 800px when big*/
+  padding-top: 800px;/*50px when small patch, 800px when big*/
   padding-left: 50px;
   padding-bottom: 0px;/*0px when small (no picture), 75px when big*/
 }
