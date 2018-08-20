@@ -109,34 +109,38 @@ em:hover del {
   background-color: #141517;
 }
 #BGGameplay {
-  background-image: url('../assets/bg_tiny_sit.jpg');
+  background-image: url('../assets/.jpg');
   background-repeat: no-repeat;
   background-position: top center;
 }
 #BGGameplay .Inner {
-  padding-top: 800px;
+  padding-top: 800px;/*50px when small patch, 800px when big*/
   padding-left: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 0px;/*0px when small (no picture), 75px when big*/
 }
 #BGItems {
-  
+  /*background-image: url('../assets/overlay_items_top.png');
+  background-repeat: no-repeat;
+  background-position: top center;*/
 }
 #BGItems .Inner {
-  padding-top: 0px;
+  padding-top: 0px;/* 0px when small, 843px when big*/
   padding-left: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 0px;/* 0px when small (no picture), 100 px when big*/
 }
 #BGItems figure img {
   width: 85px;
   height: 64px;
 }
 #BGHeroes {
-  
+  /*background-image: url('../assets/bg_five_heroes.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;*/
 }
 #BGHeroes .Inner {
-  padding-top: 0px;
+  padding-top: 0px;/*0px when small(no picture), 968px when big, 350px when five_heroes*/
   padding-left: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 0px;/*0px when small, max:100px*/
 }
 #BGHeroes figure img {
   width: 113px;

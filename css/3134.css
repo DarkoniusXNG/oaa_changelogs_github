@@ -1,8 +1,19 @@
-
-.editable-style {
-  background-color: #0d0d0d; 
+body {
+  background-image: url('../assets/bg_repeater.jpg');
+  width: 1366px;
   margin-left: auto; 
   margin-right: auto;
+  transition: min-width .5s ease-out, min-height .5s ease-out;
+}
+h1 {
+  font-family: 'Radiance';
+  font-size: 40px;
+  color: #999999;
+}
+a {
+  font-family: 'Radiance';
+  color: white;
+  text-decoration: none;
 }
 .Container {
   min-width: 1050px;
@@ -12,7 +23,7 @@
   position: relative;
 }
 ul, li {
-  font-family: 'Arial';
+  font-family: 'Radiance';
   color: #999999;
   font-size: 18px;
   line-height: 30px;
@@ -20,13 +31,12 @@ ul, li {
   padding-bottom: 5px;
 }
 figure {
-  font-family: 'Arial';
+  font-family: 'Radiance';
   color: #999999;
   font-size: 18px;
   line-height: 30px;
   display: block; 
   width: 949px;
-  /*background-color: rgba( 0, 0, 0, 0.5);*/
   padding: 42px 50px 42px 50px;
   margin: 0px 0px 2px 0px;
 }
@@ -54,7 +64,7 @@ figure h1 {
   padding-left: 5px;
   color: #36D15E;
 }
-em, em del, ins {
+em, em del {
   margin: 0;
   padding: 0;
   border: 0;
@@ -90,59 +100,6 @@ em del {
 em:hover del {
   visibility: visible;
 }
-ins {
-  display: inline-block;
-  color: #BF9E93;
-}
-ins:hover {
-  color: #FFFFFF;
-}
-ins table {
-  display: block;
-  visibility: hidden;
-  background-color: #261E1C;
-  color: #9f7e73;
-  text-align: left;
-  padding: 10px 15px 10px 15px;
-  border: 1px solid black;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  z-index: 1;
-  font-size: 14px;
-  line-height: 18px;
-}
-ins table td {
-  font-family: 'Arial';
-  font-size: 14px;
-  padding-right: 10px;
-  text-align: right;
-}
-ins table td b {
-  font-family: 'Arial';
-  font-size: 14px;
-  font-weight: normal;
-  color: #EFCEC3;
-}
-ins:hover table {
-  visibility: visible;
-}
-.MapChange .Inner {
-  padding-left: 53px;
-  padding-top: 44px;
-  padding-right: 500px;
-}
-.MapChange h2 {
-  font-size: 24px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  font-weight: normal;
-  padding-bottom: 2px;
-}
-.MapChange ul {
-  padding-left: 16px;
-}
-
 #BG2, #BG2 .Inner {
   background-image: url('../assets/bg_02.jpg');
   background-color: #000000;
@@ -171,7 +128,7 @@ ins:hover table {
 #BG3 a {
   display: block;
   position: absolute;
-  font-family: 'Arial';
+  font-family: 'Radiance';
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 18px;
@@ -387,9 +344,6 @@ ins:hover table {
   text-transform: uppercase;
   font-size: 20px;
 }
-#BG21.MapChange .Inner {
-  padding-right: 480px;
-}
 #BG22, #BG22 .Inner {
   background-image: url('../assets/bg_22.jpg');
   background-color: #141517;
@@ -415,7 +369,7 @@ ins:hover table {
 .OrangeBoxHeader {
   margin-bottom: 25px;
   display: table;
-  font-family: 'Arial';
+  font-family: 'Radiance';
   font-weight: normal;
   font-size: 30px;
   text-transform: uppercase;
@@ -440,9 +394,7 @@ ins:hover table {
   padding-bottom: 75px;
 }
 #BGItems {
-  background-image: url('../assets/overlay_items_top.png');
-  background-repeat: no-repeat;
-  background-position: top center;
+  
 }
 #BGItems .Inner {
   padding-top: 843px;
@@ -452,13 +404,6 @@ ins:hover table {
 #BGItems figure img {
   width: 85px;
   height: 64px;
-}
-#BGItems .Inner figure:nth-of-type(1) {
-  background-image: url('../assets/overlay_items_bleed.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-color: transparent;
-  opacity: 1;
 }
 #BGHeroes {
   background-image: url('../assets/overlay_heroes_top.png');
@@ -470,33 +415,7 @@ ins:hover table {
   padding-left: 50px;
   padding-bottom: 100px;
 }
-#BGHeroes figure ol {
-  background-image: url('../assets/hero_tree_icon.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-  padding: 0px 0px 0px 80px;
-  margin: 10px 0px 0px 0px;
-  list-style-type: none;
-}
-#BGHeroes figure ol b {
-  display: inline-block;
-  padding: 0px 15px;
-  font-weight: normal;
-  color: #FFFFFF;
-}
 #BGHeroes figure img {
   width: 113px;
   height: 64px;
-}
-.silex-id-1534163797909-1 {
-  width: 1366px;
-  overflow: auto;
-  color: #999999;
-  /*background-color: #0d0d0d;*/
-  min-height: 10000px;
-  margin-left: auto;
-  margin-right: auto;
-}
-body.silex-runtime {
-  opacity: 1;
 }
