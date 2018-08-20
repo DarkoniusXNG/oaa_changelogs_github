@@ -3,7 +3,7 @@ body {
   width: 1366px;
   margin-left: auto; 
   margin-right: auto;
-  transition: min-width .5s ease-out, min-height .5s ease-out; /* smooth body resize when dragging elements near the side, or when page have different size */
+  transition: min-width .5s ease-out, min-height .5s ease-out;
 }
 h1 {
   font-family: 'Arial';
@@ -110,7 +110,7 @@ em:hover del {
   background-color: #141517;
 }
 #BGGameplay {
-  background-image: url('../assets/bg_14.jpg');
+  background-image: url('../assets/bg_np.jpg');
   background-repeat: no-repeat;
   background-position: top center;
 }
