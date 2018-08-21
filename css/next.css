@@ -107,11 +107,12 @@ em:hover del {
   background-image: url('../assets/bg_oaa.jpg');
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: contain;
 }
 #BGGameplay .Inner {
-  padding-top: 50px;/*50px when small patch, 800px when big*/
+  padding-top: 800px;/*50px when small patch, 800px when big*/
   padding-left: 50px;
-  padding-bottom: 0px;/*0px when small (no picture), 75px when big*/
+  padding-bottom: 75px;/*0px when small (no picture), 75px when big*/
 }
 #BGItems {
   background-image: url('../assets/overlay_items_top.png');
