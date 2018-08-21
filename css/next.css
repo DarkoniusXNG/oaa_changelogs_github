@@ -98,7 +98,8 @@ em:hover del {
   letter-spacing: 2.2px;
   padding: 11px 19px 11px 19px;
   color: #FFFFFF;
-  background: linear-gradient(to right, #47688A, #29374C);
+  /*background: linear-gradient(to right, #47688A, #29374C);*/
+  backgroun: linear-gradient(to right, #ff6600, #ed3b33);
 }
 .BGRepeater {
   
