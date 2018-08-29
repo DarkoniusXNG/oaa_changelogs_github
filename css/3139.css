@@ -1,5 +1,4 @@
 body {
-  /*background-image: url('../assets/bg_repeater_red.jpg');*/
   background-color: #1f0d0f;
   width: 1366px;
   margin-left: auto; 
@@ -9,7 +8,6 @@ body {
 h1 {
   font-family: 'Radiance';
   font-size: 40px;
-  /*color: #999999;*/
   color: #fff;
 }
 a {
@@ -112,7 +110,7 @@ em:hover del {
   background-size: contain;
 }
 #BGGameplay .Inner {
-  padding-top: 924px;
+  padding-top: 650px;
   padding-left: 50px;
   padding-bottom: 75px;
 }
@@ -142,7 +140,6 @@ em:hover del {
 }
 #HubLinkContainer
 {
-  /*background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );*/
   width: 523px;
   height: 301px;
   margin-top: 30px;
