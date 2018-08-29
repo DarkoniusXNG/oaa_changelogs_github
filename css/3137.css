@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -100,9 +101,6 @@ em:hover del {
   color: #FFFFFF;
   background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%);
 }
-.BGRepeater {
-  
-}
 #BGGameplay {
   background-image: url('../assets/bg_oaa.jpg');
   background-repeat: no-repeat;
@@ -117,7 +115,7 @@ em:hover del {
 
 #HubLinkContainer
 {
-  background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png');
   width: 523px;
   height: 301px;
   margin-top: 30px;

@@ -100,9 +100,6 @@ em:hover del {
   color: #FFFFFF;
   background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%);
 }
-.BGRepeater {
-  
-}
 #BGGameplay {
   background-image: url('../assets/bg_grimstroke.png');
   background-repeat: no-repeat;
@@ -111,27 +108,9 @@ em:hover del {
 #BGGameplay .Inner {
   padding-top: 650px;
   padding-left: 50px;
-  padding-bottom: 0px;
-}
-#BGItems {
-  
-}
-#BGItems .Inner {
-  padding-top: 0px;
-  padding-left: 50px;
-  padding-bottom: 0px;
-}
-#BGItems figure img {
-  width: 85px;
-  height: 64px;
-}
-#BGHeroes {
-  
 }
 #BGHeroes .Inner {
-  padding-top: 0px;
   padding-left: 50px;
-  padding-bottom: 0px;
 }
 #BGHeroes figure img {
   width: 113px;
