@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -98,23 +99,20 @@ em:hover del {
   letter-spacing: 2.2px;
   padding: 11px 19px 11px 19px;
   color: #FFFFFF;
-  /*background: linear-gradient(to right, #47688A, #29374C);*/
+  /*background: linear-gradient(to right, #47688A, #29374C); this is the blue one*/
   /*background: linear-gradient(to right, #ff6600, #ed3b33);*/
-  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%);
-}
-.BGRepeater {
-  
+  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%); /*real orange box*/
 }
 #BGGameplay {
   background-image: url('../assets/bg_oaa.jpg');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: contain;/*only needed for big pictures*/
 }
 #BGGameplay .Inner {
   padding-top: 800px;/*50px when small patch, 800px when big*/
   padding-left: 50px;
-  padding-bottom: 75px;/*0px when small (no picture), 75px when big*/
+  padding-bottom: 75px;/*delete when small or no picture, 75px when big*/
 }
 #BGItems {
   background-image: url('../assets/overlay_items_top.png');
@@ -122,9 +120,9 @@ em:hover del {
   background-position: top center;
 }
 #BGItems .Inner {
-  padding-top: 843px;/* 0px when small, 843px when big*/
+  padding-top: 843px;/*delete when small or no picture, 843px when big*/
   padding-left: 50px;
-  padding-bottom: 0px;/* 0px when small (no picture), 100 px when big*/
+  padding-bottom: 0px;/*delete when small or no picture, 100 px when big*/
 }
 #BGItems figure img {
   width: 85px;
@@ -136,9 +134,9 @@ em:hover del {
   background-position: top center;
 }
 #BGHeroes .Inner {
-  padding-top: 350px;/*0px when small(no picture), 968px when big, 350px when five_heroes*/
+  padding-top: 350px;/*delete when small or no picture, 968px when big, 350px when five_heroes*/
   padding-left: 50px;
-  padding-bottom: 0px;/*0px when small, max:100px*/
+  padding-bottom: 0px;/*delete when small or no picture, max:100px*/
 }
 #BGHeroes figure img {
   width: 113px;
@@ -146,7 +144,7 @@ em:hover del {
 }
 #HubLinkContainer
 {
-  background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png');
   width: 523px;
   height: 301px;
   margin-top: 30px;

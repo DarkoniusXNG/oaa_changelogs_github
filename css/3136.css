@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -116,27 +117,16 @@ em:hover del {
 #BGGameplay .Inner {
   padding-top: 800px;
   padding-left: 50px;
-  padding-bottom: 0px;
-}
-#BGItems {
-  
 }
 #BGItems .Inner {
-  padding-top: 0px;
   padding-left: 50px;
-  padding-bottom: 0px;
 }
 #BGItems figure img {
   width: 85px;
   height: 64px;
 }
-#BGHeroes {
-  
-}
 #BGHeroes .Inner {
-  padding-top: 0px;
   padding-left: 50px;
-  padding-bottom: 0px;
 }
 #BGHeroes figure img {
   width: 113px;
@@ -144,7 +134,7 @@ em:hover del {
 }
 #HubLinkContainer
 {
-  background-image: url( 'http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png' );
+  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png');
   width: 523px;
   height: 301px;
   margin-top: 30px;
