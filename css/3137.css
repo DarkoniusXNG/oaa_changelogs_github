@@ -105,7 +105,8 @@ em:hover del {
   background-image: url('../assets/bg_oaa.jpg');
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  width: 90%;
+  /*background-size: contain;*/
 }
 #BGGameplay .Inner {
   padding-top: 800px;
@@ -115,7 +116,7 @@ em:hover del {
 
 #HubLinkContainer
 {
-  background-image: url('http://cdn.dota2.com/apps/dota2/images/700/gameplay/hublink.png');
+  background-image: url('../assets/hublink.png');
   width: 523px;
   height: 301px;
   margin-top: 30px;
