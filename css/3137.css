@@ -106,7 +106,7 @@ em:hover del {
   background-repeat: no-repeat;
   background-position: top center;
   width: 90%;
-  /*background-size: contain;*/
+  background-size: contain;
 }
 #BGGameplay .Inner {
   padding-top: 800px;
