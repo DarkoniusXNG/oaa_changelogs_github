@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: 'Radiance';
   font-size: 40px;
-  color: #999999;
+  color: #ff6600; /* #ff6600 - orange; #999999 - grey; #fff - white;*/
 }
 a {
   font-family: 'Radiance';
