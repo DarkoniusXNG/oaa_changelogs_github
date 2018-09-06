@@ -105,8 +105,10 @@ em:hover del {
   background-image: url('../assets/bg_oaa.jpg');
   background-repeat: no-repeat;
   background-position: top center;
-  width: 90%;
+  width: 95%;
   background-size: contain;
+  margin-left:auto;
+  margin-right:auto;
 }
 #BGGameplay .Inner {
   padding-top: 800px;

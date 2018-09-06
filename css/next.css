@@ -124,6 +124,9 @@ em:hover del {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: contain;/*only needed for big pictures*/
+  width: 95%; /*only needed for big pictures*/
+  margin-left:auto; /*only needed for bg_oaa*/
+  margin-right:auto; /*only needed for bg_oaa*/
 }
 #BGGameplay .Inner {
   padding-top: 800px;/*50px when small patch, 800px when big*/
@@ -159,7 +162,7 @@ em:hover del {
   height: 64px;
 }
 #BGHeroes figure ol {
-	background-image: url( 'assets/hero_tree_icon.png' ); /*for talent trees*/
+	background-image: url( '../assets/hero_tree_icon.png' ); /*for talent trees*/
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 80px;
