@@ -26,7 +26,7 @@ a {
 ul, li {
   font-family: 'Radiance';
   color: #999999;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   list-style-type: circle;
   padding-bottom: 5px;
@@ -34,7 +34,7 @@ ul, li {
 figure {
   font-family: 'Radiance';
   color: #999999;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 30px;
   display: block; 
   width: 949px;
@@ -49,7 +49,7 @@ figure h1 {
   color: #FFFFFF;
   font-weight: normal;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 19px;
   padding-top: 15px;
   padding-bottom: 5px;
 }
@@ -175,6 +175,9 @@ em:hover del {
 	font-weight: normal;
 	color: #FFFFFF;
 }
+#BGHeroes figure ol li {
+	list-style-type: none;
+}
 #HubLinkContainer {
   background-image: url('../assets/hublink.png');
   width: 523px;
@@ -191,7 +194,7 @@ em:hover del {
   height: 40px;
   color: #CCCCCC;
   font-family: 'Radiance';
-  font-size: 18px;
+  font-size: 19px;
   text-transform: uppercase;
   letter-spacing: 1.35px;
   padding-top: 15px;
