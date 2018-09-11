@@ -115,7 +115,7 @@ em:hover del {
   letter-spacing: 2.2px;
   padding: 11px 19px 11px 19px;
   color: #FFFFFF;
-  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%); /*real orange box*/
+  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%);
 }
 #BGGameplay {
   background-image: url('../assets/bg_tiny_sit.jpg');
@@ -125,6 +125,7 @@ em:hover del {
 #BGGameplay .Inner {
   padding-top: 800px;
   padding-left: 50px;
+  padding-bottom: 75px;
 }
 #BGItems {
   background-image: url('../assets/overlay_items_top.png');
@@ -151,6 +152,23 @@ em:hover del {
 #BGHeroes figure img {
   width: 113px;
   height: 64px;
+}
+#BGHeroes figure ol {
+	background-image: url( '../assets/hero_tree_icon.png' ); /*for talent trees*/
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 80px;
+	margin: 10px 0px 0px 0px;
+	list-style-type: none;
+}
+#BGHeroes figure ol b {
+	display: inline-block; /*for talents' OR*/
+	padding: 0px 15px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+#BGHeroes figure ol li {
+	list-style-type: none;
 }
 #HubLinkContainer {
   background-image: url('../assets/hublink.png');
