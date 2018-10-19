@@ -129,7 +129,7 @@ em:hover del {
   margin-right:auto; /*only needed for bg_oaa*/
 }
 #BGGameplay .Inner {
-  padding-top: 800px;/*50px when small patch, 800px when big*/
+  padding-top: 800px;/*50px when small patch, dimension of the picture px when big*/
   padding-left: 50px;
   padding-bottom: 75px;/*delete when small or no picture, 75px when big*/
 }
@@ -139,7 +139,7 @@ em:hover del {
   background-position: top center;
 }
 #BGItems .Inner {
-  padding-top: 843px;/*delete when small or no picture, 843px when big*/
+  padding-top: 843px;/*delete when small or no picture, dimension of the picture px when big*/
   padding-left: 50px;
   padding-bottom: 0px;/*delete when small or no picture, 100 px when big*/
 }
@@ -153,9 +153,8 @@ em:hover del {
   background-position: top center;
 }
 #BGHeroes .Inner {
-  padding-top: 350px;/*delete when small or no picture, 968px when big, 350px when five_heroes*/
+  padding-top: 350px;/*delete when small or no picture, dimension of the picture px when big, 350px when five_heroes*/
   padding-left: 50px;
-  padding-bottom: 0px;/*delete when small or no picture, max:100px*/
 }
 #BGHeroes figure img {
   width: 113px;
