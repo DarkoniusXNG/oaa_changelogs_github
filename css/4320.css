@@ -148,14 +148,14 @@ em:hover del {
   height: 64px;
 }
 #BGHeroes {
-  background-image: url('../assets/bg_five_heroes.jpg');
+  background-image: url('../assets/bg_sf.jpg');
   background-repeat: no-repeat;
   background-position: top center;
 }
 #BGHeroes .Inner {
-  padding-top: 350px;/*delete when small or no picture, 968px when big, 350px when five_heroes*/
+  padding-top: 968px;/*delete when small or no picture, 968px when big, 350px when five_heroes*/
   padding-left: 50px;
-  padding-bottom: 0px;/*delete when small or no picture, max:100px*/
+  padding-bottom: 50px;/*delete when small or no picture, max:100px*/
 }
 #BGHeroes figure img {
   width: 113px;
