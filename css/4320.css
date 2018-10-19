@@ -1,0 +1,211 @@
+body {
+  background-color: black;
+  background-image: url('../assets/bg_repeater.jpg');
+  width: 1366px;
+  margin-left: auto; 
+  margin-right: auto;
+  transition: min-width .5s ease-out, min-height .5s ease-out;
+}
+h1 {
+  font-family: 'Radiance';
+  font-size: 40px;
+  color: #ff6600; /* #ff6600 - orange; #999999 - grey; #fff - white;*/
+}
+a {
+  font-family: 'Radiance';
+  color: white;
+  text-decoration: none;
+}
+.Container {
+  min-width: 1050px;
+}
+.SubContainer {
+  width: 100%;
+  position: relative;
+}
+ul, li {
+  font-family: 'Radiance';
+  color: #999999;
+  font-size: 19px;
+  line-height: 30px;
+  list-style-type: circle;
+  padding-bottom: 5px;
+}
+figure {
+  font-family: 'Radiance';
+  color: #999999;
+  font-size: 19px;
+  line-height: 30px;
+  display: block; 
+  width: 949px;
+  padding: 42px 50px 42px 50px;
+  margin: 0px 0px 2px 0px;
+}
+figure ul {
+  padding-left: 18px;
+}
+figure h1 {
+  display: block;
+  color: #FFFFFF;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 19px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.Reworked {
+  padding-left: 5px;
+  color: #FF5307;
+}
+.NewItem {
+	padding-left: 5px;
+	color: #36D15E;
+}
+.Scepter {
+  padding-left: 5px;
+  color: #00CCFF;
+}
+.Captains {
+  padding-left: 5px;
+  color: #36D15E;
+}
+em, em del {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-style: normal;
+  text-decoration: none;
+}
+em {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-image: url('../assets/question_mark.png');
+}
+em del {
+  display: block;
+  visibility: hidden;
+  width: 860px;
+  background-color: #261E1C;
+  color: #9f7e73;
+  text-align: left;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid black;
+  position: absolute;
+  margin-top: 17px;
+  left: 92px;
+  right: 0px;
+  z-index: 1;
+}
+em:hover del {
+  visibility: visible;
+}
+.OrangeBoxHeader {
+  margin-bottom: 25px;
+  display: table;
+  font-family: 'Radiance';
+  font-weight: normal;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2.2px;
+  padding: 11px 19px 11px 19px;
+  color: #FFFFFF;
+  /*background: linear-gradient(to right, #47688A, #29374C); this is the blue one*/
+  /*background: linear-gradient(to right, #ff6600, #ed3b33);*/
+  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%); /*real orange box*/
+}
+#BGGameplay {
+  background-image: url('../assets/bg_oaa.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;/*only needed for big pictures*/
+  width: 95%; /*only needed for big pictures*/
+  margin-left:auto; /*only needed for bg_oaa*/
+  margin-right:auto; /*only needed for bg_oaa*/
+}
+#BGGameplay .Inner {
+  padding-top: 800px;/*50px when small patch, 800px when big*/
+  padding-left: 50px;
+  padding-bottom: 75px;/*delete when small or no picture, 75px when big*/
+}
+#BGItems {
+  background-image: url('../assets/overlay_items_top.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#BGItems .Inner {
+  padding-top: 843px;/*delete when small or no picture, 843px when big*/
+  padding-left: 50px;
+  padding-bottom: 0px;/*delete when small or no picture, 100 px when big*/
+}
+#BGItems figure img {
+  width: 85px;
+  height: 64px;
+}
+#BGHeroes {
+  background-image: url('../assets/bg_five_heroes.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+#BGHeroes .Inner {
+  padding-top: 350px;/*delete when small or no picture, 968px when big, 350px when five_heroes*/
+  padding-left: 50px;
+  padding-bottom: 0px;/*delete when small or no picture, max:100px*/
+}
+#BGHeroes figure img {
+  width: 113px;
+  height: 64px;
+}
+#BGHeroes figure ol {
+	background-image: url( '../assets/hero_tree_icon.png' ); /*for talent trees*/
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding: 0px 0px 0px 80px;
+	margin: 10px 0px 0px 0px;
+	list-style-type: none;
+}
+#BGHeroes figure ol b {
+	display: inline-block; /*for talents' OR*/
+	padding: 0px 15px;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+#BGHeroes figure ol li {
+	list-style-type: none;
+}
+#HubLinkContainer {
+  background-image: url('../assets/hublink.png');
+  width: 523px;
+  height: 301px;
+  margin-top: 30px;
+  line-height: normal;
+  margin-left:auto;
+  margin-right:auto;
+}
+#HubLink {
+  position: relative;
+  display: block;
+  width: 310px;
+  height: 40px;
+  color: #CCCCCC;
+  font-family: 'Radiance';
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 1.35px;
+  padding-top: 15px;
+  padding-left: 74px;  
+  top: 104px;
+  line-height: normal;
+}
+#HubLink img {
+    margin-bottom: -3px;
+    margin-right: 6px;
+}
+#HubLink:hover {
+    background-color: rgba( 255, 255, 255, 0.05 );
+}
