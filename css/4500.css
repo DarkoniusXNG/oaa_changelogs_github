@@ -133,62 +133,42 @@ em:hover del {
   width: 113px;
   height: 64px;
 }
+#LinkContainer
+{
+  width: max-content;
+  height: 200px;
+  margin-top: 30px;
+  line-height: normal;
+  margin-left:auto;
+  margin-right:auto;
+}
 #Link
 {
     position: relative;
-	display: table-cell;
+	display: inline-block;
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
     background-color: #111C26;
     border: 1px solid #336391;
-    height: 40px;
-    /*width: 200px;*/
+    /*height: 40px;*/
+    width: 200px;
     color: #ff6600;
-    float: right;
-    margin-top: 13px;
-	text-shadow: 2px 2px 5px #000000;
+    /*float: right;*/
+    margin-top: 15px;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px #000000;
 	text-align: center;
 	letter-spacing: 3px;
     font-size: 18px;
 	font-family: 'Radiance';
-    padding-top: 15px;
-	padding-left: 74px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
     -moz-transition: .3s;
     transition: .3s;
     -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-}
-#LinkContainer
-{
-	width: 100%;
-	display: table-row;
-}
-
-#HubLinkContainer
-{
-  width: 523px;
-  height: 301px;
-  margin-top: 30px;
-  line-height: normal;
-  margin-left:auto;
-  margin-right:auto;
-}
-#HubLink
-{
-  position: relative;
-  display: block;
-  width: 310px;
-  height: 40px;
-  color: #CCCCCC;
-  font-family: 'Radiance';
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1.35px;
-  padding-top: 15px;
-  padding-left: 74px;
-  line-height: normal;
 }
 #Link:hover
 {
