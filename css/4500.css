@@ -133,40 +133,40 @@ em:hover del {
   width: 113px;
   height: 64px;
 }
-
-#Link {
+#Link
+{
     position: relative;
-	display: block;
+	display: table-cell;
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
-    -webkit-border-radius: 3px 3px 3px 3px;
     background-color: #111C26;
     border: 1px solid #336391;
     height: 40px;
-    width: 200px;
-    text-shadow: 2px 2px 5px #000000;
+    /*width: 200px;*/
     color: #ff6600;
-    /*margin-left: 10px;*/
-    text-align: center;
     float: right;
-    /*margin-top: 13px;*/
+    margin-top: 13px;
+	text-shadow: 2px 2px 5px #000000;
     text-transform: uppercase;
     text-shadow: 2px 2px 5px #000000;
-    -webkit-text-stroke: 0.2px;
+	text-align: center;
+	letter-spacing: 3px;
     font-size: 18px;
+	font-family: 'Radiance';
     padding-top: 15px;
 	padding-left: 74px;
-    letter-spacing: 3px;
     -moz-transition: .3s;
-    -webkit-transition: .3s;
     transition: .3s;
-    -webkit-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
-    font-family: 'Radiance';
+}
+#LinkContainer
+{
+	width: 100%;
+	display: table-row;
 }
 
-#LinkContainer
+#HubLinkContainer
 {
   width: 523px;
   height: 301px;
@@ -189,11 +189,6 @@ em:hover del {
   padding-top: 15px;
   padding-left: 74px;
   line-height: normal;
-}
-#Link img
-{
-    margin-bottom: -3px;
-    margin-right: 6px;
 }
 #Link:hover
 {
