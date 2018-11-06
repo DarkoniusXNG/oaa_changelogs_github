@@ -147,10 +147,8 @@ em:hover del {
     position: relative;
 	display: inline-block;
     border-radius: 3px 3px 3px 3px;
-    -moz-border-radius: 3px 3px 3px 3px;
     background-color: #111C26;
     border: 1px solid #336391;
-    /*height: 40px;*/
     width: 200px;
     color: #ff6600;
     margin-top: 15px;
@@ -164,9 +162,7 @@ em:hover del {
 	padding-bottom: 22px;
 	padding-left: 10px;
 	padding-right: 10px;
-    -moz-transition: .3s;
     transition: .3s;
-    -moz-box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
 }
 #Link:hover
