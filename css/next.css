@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: black; /* #1f0d0f; - grimstroke*/
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -206,5 +206,41 @@ em:hover del {
     margin-right: 6px;
 }
 #HubLink:hover {
+    background-color: rgba( 255, 255, 255, 0.05 );
+}
+#LinkContainer
+{
+  width: max-content;
+  height: 200px;
+  margin-top: 30px;
+  line-height: normal;
+  margin-left:auto;
+  margin-right:auto;
+}
+#Link
+{
+    position: relative;
+	display: inline-block;
+    border-radius: 3px 3px 3px 3px;
+    background-color: #111C26;
+    border: 1px solid #336391;
+    width: 200px;
+    color: #ff6600;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000000;
+	text-align: center;
+	letter-spacing: 3px;
+    font-size: 18px;
+	font-family: 'Radiance';
+	padding-top: 22px;
+	padding-bottom: 22px;
+	padding-left: 10px;
+	padding-right: 10px;
+    transition: .3s;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.75);
+}
+#Link:hover
+{
     background-color: rgba( 255, 255, 255, 0.05 );
 }
