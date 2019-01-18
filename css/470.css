@@ -105,11 +105,6 @@ em:hover del {
   padding-top: 50px;
   padding-left: 50px;
 }
-#BGItems {
-  background-image: url('../assets/overlay_items_top.png');
-  background-repeat: no-repeat;
-  background-position: top center;
-}
 #BGItems .Inner {
   padding-left: 50px;
 }
