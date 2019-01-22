@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="generator" content="Silex v2.2.7">
+	<link rel="shortcut icon" href="https://darkoniusxng.github.io/oaa_changelogs_github/assets/OAA.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>OAA 4.7.1-2 Changelog</title>
+	<script type="text/javascript" src="https://darkoniusxng.github.io/oaa_changelogs_github/js/script.js" ></script>
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/radiance.css" rel="stylesheet" type="text/css">
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/470.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="Container BGRepeater">
+
+<div class="SubContainer" id="BGGameplay">
+<div class="Inner" id="GeneralChanges">
+    <h1>Open Angel Arena 4.7.1-2 Update</h1> 
+    <h1 class="OrangeBoxHeader">General Changes</h1>
+<figure>
+	<ul>
+		<li>Moved tier 1 capture points onto safe highground.</li>
+	</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGItems">
+<div class="Inner" id="ItemChanges">
+    <h1 class="OrangeBoxHeader">Runes</h1>
+<figure>
+	<ul>
+		<li>If the teams are even or your team is ahead, the bounty runes will now give less xp and gold to your team than before:</li>
+		<li>Minute 0: 5.71% less</li>
+		<li>Minute 2: 43.48% less</li>
+		<li>Minute 4: 23.26% less</li>
+		<li>Minute 6: 15.87% less</li>
+		<li>Minute 8: 12.05% less</li>
+		<li>Minute 10: 9.71% less</li>
+		<li>Minute 20: 5.46% less</li>
+		<li>Minute 30: 5.46% less</li>
+		<li>Minute 60: 1.66% less</li>
+		<li>If your team is behind in Networth or Experience past the 15-20 minute bounty runes will give 5%-20% more depending on Networth/Experience difference and phase in the game.</li>
+		<li>Old formula: InitialValue x GameTime x (1 + DifferenceFactor x GameTime/10)<em><del>DifferenceFactor = (EnemyTeamGold/XP - AlliedTeamGold/XP) / (EnemyTeamGold/XP + AlliedTeamGold/XP) (minimum 0)</del></em></li>
+		<li>New formula: InitialValue x GameTime x (1 + (1 - (1 - DifferenceFactor) x (1 - DifferenceFactor)) x GameTime/12) - 10 x GameTime/(GameTime + 0.3)</li>
+	</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGHeroes">
+<div class="Inner" id="HeroChanges">
+    <h1 class="OrangeBoxHeader">Hero Changes</h1>
+<figure>
+		<img data-id="bounty_hunter">
+		<h1>Bounty Hunter:</h1>
+		<ul>
+			<li>Jinada gold steal decreased from 75/150/300/600/1200/2400 to 75/150/<font color="red">225</font>/<font color="red">300</font>/1200/2400.</li>
+			<li>Track self bonus gold decreased from 1000/2000/3000/6000/9000 to <font color="red">600</font>/<font color="red">1200</font>/<font color="red">1800</font>/<font color="red">3600</font>/<font color="red">5400</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="chaos_knight">
+		<h1>Chaos Knight:</h1>
+		<ul>
+			<li>Phantasm cooldown increased from 80 to <font color="red">90</font> seconds.<em><del>Cooldown with Aghanim Scepter from 70 to <font color="red">80</font> seconds.</del></em></li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="omniknight">
+		<h1>Omniknight:</h1>
+		<ul>
+			<li>Heavenly Grace cast point increased from 0.25 to <font color="red">0.35</font></li>
+			<li>Heavenly Grace cooldown increased from 17/16/15/14/13/12 to 17/16/15/14/<font color="red">14</font>/<font color="red">14</font> seconds.</li>
+			<li>Heavenly Grace level 6 mana cost increased from 220 to <font color="red">330</font>.
+		</ul>
+</figure>
+</div>
+</div>
+</div>
+<div id="LinkContainer">
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/470.html">Previous</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/home.html">Home</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/473.html">Next</a>
+</div>
+</body>
+</html>
