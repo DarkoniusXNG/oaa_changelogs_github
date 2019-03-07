@@ -8,7 +8,7 @@ body {
 h1 {
   font-family: 'Radiance';
   font-size: 40px;
-  color: #fff;
+  color: #ff6600;
 }
 a {
   font-family: 'Radiance';
@@ -110,7 +110,7 @@ em:hover del {
   margin-right:auto;
 }
 #BGGameplay .Inner {
-  padding-top: 1500px;
+  padding-top: 800px;
   padding-left: 50px;
   padding-bottom: 75px;
 }
