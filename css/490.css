@@ -104,10 +104,15 @@ em:hover del {
   background-image: url('../assets/bg_mars.jpg');
   background-repeat: no-repeat;
   background-position: top center;
+  background-size: contain;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
 }
 #BGGameplay .Inner {
-  padding-top: 650px;
+  padding-top: 1500px;
   padding-left: 50px;
+  padding-bottom: 75px;
 }
 #BGHeroes .Inner {
   padding-left: 50px;
