@@ -1,5 +1,5 @@
 body {
-  background-color: black; /* #1f0d0f; - grimstroke*/
+  background-color: black;
   background-image: url('../assets/bg_repeater.jpg');
   width: 1366px;
   margin-left: auto; 
@@ -9,7 +9,7 @@ body {
 h1 {
   font-family: 'Radiance';
   font-size: 40px;
-  color: #ff6600; /* #ff6600 - orange; #999999 - grey; #fff - white;*/
+  color: #ff6600;
 }
 a {
   font-family: 'Radiance';
@@ -115,9 +115,7 @@ em:hover del {
   letter-spacing: 2.2px;
   padding: 11px 19px 11px 19px;
   color: #FFFFFF;
-  /*background: linear-gradient(to right, #47688A, #29374C); this is the blue one*/
-  /*background: linear-gradient(to right, #ff6600, #ed3b33);*/
-  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%); /*real orange box*/
+  background: linear-gradient(to right, rgba(255,102,0,0.56) 0%, rgba(237,59,28,0.56) 100%);
 }
 #BGGameplay {
   background-image: url('../assets/bg_oaa.jpg');
@@ -139,7 +137,7 @@ em:hover del {
   background-position: top center;
 }
 #BGItems .Inner {
-  padding-top: 843px;/*delete when small or no picture, dimension of the picture px when big*/
+  padding-top: 843px;
   padding-left: 50px;
   padding-bottom: 0px;/*delete when small or no picture, 100 px when big*/
 }
@@ -148,20 +146,17 @@ em:hover del {
   height: 64px;
 }
 #BGHeroes {
-  background-image: url('../assets/bg_five_heroes.jpg');
-  background-repeat: no-repeat;
-  background-position: top center;
+  
 }
 #BGHeroes .Inner {
-  padding-top: 350px;/*delete when small or no picture, dimension of the picture px when big, 350px when five_heroes*/
-  padding-left: 50px;
+ padding-left: 50px;
 }
 #BGHeroes figure img {
   width: 113px;
   height: 64px;
 }
 #BGHeroes figure ol {
-	background-image: url( '../assets/hero_tree_icon.png' ); /*for talent trees*/
+	background-image: url( '../assets/hero_tree_icon.png' );
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 80px;
