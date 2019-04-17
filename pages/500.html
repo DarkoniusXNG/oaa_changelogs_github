@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="generator" content="Silex v2.2.7">
+	<link rel="shortcut icon" href="https://darkoniusxng.github.io/oaa_changelogs_github/assets/OAA.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>OAA 5.0.0 Changelog</title>
+	<script type="text/javascript" src="https://darkoniusxng.github.io/oaa_changelogs_github/js/script.js" ></script>
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/radiance.css" rel="stylesheet" type="text/css">
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/500.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="Container BGRepeater">
+
+<div class="SubContainer" id="BGGameplay">
+<div class="Inner" id="GeneralChanges">
+    <h1>Open Angel Arena 5.0.0 Update</h1> 
+    <h1 class="OrangeBoxHeader">General Changes</h1>
+<figure>
+	<ul>
+		<li><span class="Reworked">New Map</span>: Moved base bosses towards inner corners. Moved fountains further away from the main area of the map. Corner bosses are not on a highground. Shuffled camps and trees.</li>
+		<li>All bosses now have <font color="red">-50%</font> magic resistance.</li>
+		<li>All bosses now have <font color="red">25</font> armor (previosly some bosses had more).</li>
+		<li>All bosses now give Experience (Tier 1 bosses give <font color="green">1000</font>, Tier 2 bosses give <font color="green">2000</font> and so on).</li>
+		<li>Roshan Protection Area is removed.</li>
+		<li>Roshan attack damage increased from 225-250 to <font color="green">1000-1100</font>.</li>
+		<li>Roshan health increased from 1000 to <font color="green">2500</font>.</li>
+		<li>Max Hero respawn time increased from 20 to <font color="red">30</font> seconds.</li>
+		<li>Changed XP gain on Hero kill from constant 62/number of killers to <font color="green">(20 + XPStreakBonus + 0.07*DyingHeroExperience)/number of killers</font><em><del>XPStreakBonus varies from 0 to 420. 60 for killing spree (3 kills in a row), 420 for beyond godlike (11 or more kills in a row).</del></em></li>
+		<li>Players now start with a Yearning Spark that can be upgraded into Farming Sparks that have stats and aid in gold generation. With an Upgrade Core, these Sparks can be combined with Boots of Speed into farming boots.</li>
+		<li>New mechanic: Creep Assist Gold - Heroes get 10% of the creep bounty if their ally killed a creep within 1500 radius. Creep Assist Gold effect can be increased with Travel Spark and Greater Travel Boots.</li>
+		<li>Neutral Creeps HP gain over time reduced by 40%.</li>
+		<li>Neutral Creeps attack damage gain over time reduced by 20%.</li>
+		<li>Effects of Fool's Gold Boots and Sparks are now paused during the duels.</li>
+	</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGItems">
+<div class="Inner" id="ItemChanges">
+    <h1 class="OrangeBoxHeader">Item Changes</h1>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/arcane_origin.png">
+		<h1>Arcane Spark: <span class="NewItem">New Item</span></h1>
+        <ul>
+			Requires:<br>
+			<ul>
+				Yearning Spark (0)<br>
+				Recipe (600)<br>
+				Total: 600<br>
+			</ul>
+		<br>
+			Provides:<br>
+			<ul>
+				+150 Mana<br>
+				+575 Gold/Min<br>
+			</ul>
+		<br>
+			Active:<br>
+			<ul>
+			Replenish Mana: Restores 100 mana to all nearby allies.<br><br>Radius: 1200.<br>
+			Cooldown: 55 seconds.<br>
+			</ul>
+		<br>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/greater_travels_4.png">
+		<h1>Greater Travel Boots:</h1>
+        <ul>
+			<li>Cooldown increased from 45 to <font color="green">90</font> seconds.</li>
+		</ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/phase_origin.png">
+		<h1>Phase Spark: <span class="NewItem">New Item</span></h1>
+        <ul>
+			Requires:<br>
+			<ul>
+				Yearning Spark (0)<br>
+				Recipe (600)<br>
+				Total: 600<br>
+			</ul>
+		<br>
+			Provides:<br>
+			<ul>
+				+10 Damage (MELEE)<br>
+				+6 Damage (RANGED)<br>
+				+3 Armor<br>
+				Splinter Shot (3 splits, 50% damage)<br>
+			</ul>
+		<br>
+        </ul>
+</figure>
+<figure>
+    <img data-id="tpscroll">
+        <h1>Teleport Scroll:</h1>
+        <ul>
+			<li>Cooldown increased from 80 to <font color="red">90</font> seconds.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/tranquil_origin.png">
+		<h1>Tranquil Spark: <span class="NewItem">New Item</span></h1>
+        <ul>
+			Requires:<br>
+			<ul>
+				Yearning Spark (0)<br>
+				Recipe (600)<br>
+				Total: 600<br>
+			</ul>
+		<br>
+			Provides:<br>
+			<ul>
+				+7 Movement Speed<br>
+				+5 HP Regen<br>
+				Naturalize: Generate charges every 300 distance moved. At 100 charges, your next attack on a neutral creep will consume them to instantly kill it for 900 additional gold.<br>
+			</ul>
+		<br>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/travel_origin.png">
+		<h1>Travel Spark: <span class="NewItem">New Item</span></h1>
+        <ul>
+			Requires:<br>
+			<ul>
+				Yearning Spark (0)<br>
+				Recipe (600)<br>
+				Total: 600<br>
+			</ul>
+		<br>
+			Provides:<br>
+			<ul>
+				+17 Movement Speed<br>
+				+60% Creep Assist Gold<br>
+			</ul>
+		<br>
+			Active:<br>
+			<ul>
+			Teleport: Teleports you to any allied structure or unit, including heroes. Teleporting to a unit is interrupted if the target unit dies.<br>
+			Cooldown: 45 seconds.<br>
+			</ul>
+		<br>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/demons_soul.png">
+		<h1>Upgrade Cores:</h1>
+        <ul>
+			<li>Can now be sold.</li>
+			<li>Upgrade Cores 2, 3 and 4 now has an active: Core Fission: Cores can be split into 2 cores of the level below it.</li>
+		</ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/farming_core.png">
+		<h1>Yearning Spark: <span class="NewItem">New Item</span></h1>
+        <ul>
+			<li>Cannot have more than 1 (this also prevents having multiple farming boots).</li>
+			<li>Used for buying Farming Sparks (Arcane, Phase, Tranquil and Travel Spark).</li>
+		</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGHeroes">
+<div class="Inner" id="HeroChanges">
+    <h1 class="OrangeBoxHeader">Hero Changes</h1>
+<figure>
+		<img data-id="leshrac">
+		<h1>Leshrac:</h1>
+		<ul>
+            <li>Level 20 Talent: +50 Pulse Nova damage increased to <font color="green">+90</font>.</li>
+			<li>Level 25 Talent: +100 Diabolic Edict Explosions reduced to <font color="red">+90</font>.</li>
+        </ul>
+</figure>
+<figure>
+		<img data-id="lone_druid">
+		<h1>Lone Druid:</h1>
+		<ul>
+           <li>Level 25 Talent: -0.5 Spirit Bear Attack Time reduced to <font color="red">-0.3</font>.</li>
+        </ul>
+</figure>
+<figure>
+		<img data-id="nevermore">
+		<h1>Shadow Fiend:</h1>
+		<ul>
+            <li>Level 25 Talent: -15 Presence of the Dark Lord armor reduction decreased to <font color="red">-13</font>.</li>
+		</ul>
+</figure>
+</div>
+</div>
+</div>
+<div id="LinkContainer">
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/4102.html">Previous</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/home.html">Home</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/501.html">Next</a>
+</div>
+</body>
+</html>
