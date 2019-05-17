@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="generator" content="Silex v2.2.7">
+	<link rel="shortcut icon" href="https://darkoniusxng.github.io/oaa_changelogs_github/assets/OAA.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<title>OAA 5.2.1-5.4.1 Changelog</title>
+	<script type="text/javascript" src="https://darkoniusxng.github.io/oaa_changelogs_github/js/script.js" ></script>
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/radiance.css" rel="stylesheet" type="text/css">
+	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/470.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="Container BGRepeater">
+
+<div class="SubContainer" id="BGGameplay">
+<div class="Inner" id="GeneralChanges">
+    <h1>Open Angel Arena 5.2.1 - 5.4.1 Update</h1> 
+    <h1 class="OrangeBoxHeader">General Changes</h1>
+<figure>
+	<ul>
+		<li>Improved loading time and enabled vanilla picking screen in unranked.</li>
+		<li>Added tooltips for Alchemist boss, Swiper (Sven boss) and Carapace (Weaver boss).</li>
+		<li>Fixed upgrade cores still splitting after being removed from the inventory.</li>
+		<li>Fixed upgrade cores being shareable.</li>
+		<li>Fixed upgrade cores having no owner after Core Fission.</li>
+		<li>Fixed Nature's Prophet Wrath of Nature crashing the server when you use it on the target with spell block.</li>
+		<li>Roshan now leaves behind a capture point upon death.</li>
+		<li>Heroes are now purged at the start of the duel and most undispellable buffs (BKB, invisibility buffs etc.) and undispellable debuffs (Doom, Rupture, Ice Blast) are removed too. Lists of undispellable buffs/debuffs are <a href ="link">here</a>.</li>
+		<li>Shrine Sanctuary cooldown reduced from 300 to <font color="green">180</font> seconds.</li>
+		<li>Added dynamic score limit and a core guy. - Work in Progress</li>
+	</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGItems">
+<div class="Inner" id="ItemChanges">
+    <h1 class="OrangeBoxHeader">Item Changes</h1>
+<figure>
+    <img data-id="armlet">
+        <h1>Armlet of Mordiggian:</h1>
+        <ul>
+			<li>Bonus attack speed increased from 25/28/32/36/40 to 25/<font color="green">30</font>/<font color="green">35</font>/<font color="green">40</font>/<font color="green">45</font>.</li>
+			<li>Bonus health regeneration increased from 5/9/13/17/21 to 5/<font color="green">10</font>/<font color="green">15</font>/<font color="green">20</font>/<font color="green">25</font>.</li>
+			<li>Unholy Strength Health Cost per Second reduced from 54/100/140/175/200 to 54/<font color="green">70</font>/<font color="green">100</font>/<font color="green">130</font>/<font color="green">160</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="bloodstone">
+		<h1>Bloodstone:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/bubble_orb_2.png">
+		<h1>Bubble Orb:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="butterfly">
+		<h1>Butterfly:</h1>
+        <ul>
+			<li>Bonus agility reduced from 40/45/50/75 to 40/<font color="red">50</font>/<font color="red">60</font>/<font color="red">70</font>.</li>
+			<li>Bonus damage reduced from 34/43/52/61 to <font color="red">33</font>/<font color="red">41</font>/<font color="red">50</font>/<font color="red">60</font>.</li>
+			<li>Bonus evasion reduced from 35% to <font color="red">20%</font>/<font color="red">25%</font>/<font color="red">30%</font>/35%.</li>
+			<li>Bonus attack speed rescaled from 35/40/45/50 to <font color="red">25</font>/<font color="red">35</font>/45/<font color="green">55</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/devastator_5.png">
+		<h1>Devastator:</h1>
+        <ul>
+			<li>Fixed Devastator passive armor reduction being disabled by Break.</li>
+            <li>Fixed Devastator and Desolator armor reduction stacking. Better armor reductions now have more priority and they don't stack with each other.</li>
+			<li>Fixed active bonus damage being amplified by spell amplification and being blocked by damage block.</li>
+			<li>Active and pasive armor reduction don't stack anymore (better armor reduction is applied always). It stacked partially before.</li>
+			<li>Removed cast point.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/dispel_orb_3.png">
+		<h1>Dispel Orb:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/reflection_shard_3.png">
+		<h1>Divine Reflection Shard:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+    <img data-id="echo_sabre">
+        <h1>Echo Sabre:</h1>
+        <ul>
+			<li>Bonus strength increased from 18/30/42/60 to <font color="green">20</font>/<font color="green">40</font>/<font color="green">60</font>/<font color="green">80</font>.</li>
+			<li>Bonus damage increased from 18/30/42/60 to <font color="green">20</font>/<font color="green">40</font>/<font color="green">60</font>/<font color="green">80</font>.</li>
+			<li>Echo Strike cooldown reduced from 3.6/3/2.4/1.8 to <font color="green">2.4</font>/<font color="green">2.1</font>/<font color="green">1.8</font>/<font color="green">1.5</font> seconds.</li>
+			<li>Echo Strike slow duration reduced from 0.8/0.9/1/1.1/1.2 to <font color="red">0.5</font> seconds.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/enrage_crystal_2.png">
+		<h1>Enrage Crystal:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/far_sight_2.png">
+		<h1>Far Sight:</h1>
+        <ul>
+			<li>Cooldown reduced from 90/75/60/45 to <font color="green">60</font>/<font color="green">50</font>/<font color="green">40</font>/<font color="green">30</font> seconds.</li>
+			<li>Reveal radius increased from 750 to 750/<font color="green">800</font>/<font color="green">850</font>/<font color="green">900</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/giant_form_1.png">
+		<h1>Giant Form:</h1>
+        <ul>
+			<li>Cooldown reduced from 6 to <font color="green">4</font>/<font color="green">2</font> seconds.</li>
+			<li>Attack rate reduced from 0.8 to <font color="green">0.7</font> seconds.</li>
+		</ul>
+</figure>
+<figure>
+	<img data-id="glimmer_cape">
+		<h1>Glimmer Cape:</h1>
+        <ul>
+			<li>Fade Time reduced from 0.6 to <font color="green">0.55</font>/<font color="green">0.5</font>/<font color="green">0.45</font>/<font color="green">0.4</font> seconds.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/kaya_2.png">
+		<h1>Kaya 2:</h1>
+        <ul>
+			<li>Mana loss reduction decreased from 18% to <font color="red">16%</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/kaya_and_sange_5.png">
+		<h1>Kaya and Sange:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+			<li>Mana loss reduction decreased from 26%/34%/42% to <font color="red">22%</font>/<font color="red">28%</font>/<font color="red">34%</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="mask_of_madness">
+		<h1>Mask of Madness:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/phase_origin.png">
+		<h1>Phase Spark:</h1>
+        <ul>
+			<li>Splinter Shot changed to Phantom Hit.</li>
+			<li>Phantom Hit: 2 random neutral creeps around the target are damaged for 50% of your attack damage.</li> 
+			<li>Phantom Hit damage cannot be amplified with spell amplification.</li>
+			<li>Phantom Hit doesn't have an effect on summoned (player-controlled) units.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/greater_phase_boots_4.png">
+		<h1>Phase Boots:</h1>
+        <ul>
+			<li>Splinter Shot changed to Phantom Hit.</li>
+			<li>Phantom Hit: 4/5/6/7 random neutral creeps around the target are damaged for 50% of your attack damage.</li>
+			<li>Phantom Hit damage cannot be amplified with spell amplification.</li>
+			<li>Phantom Hit doesn't have an effect on summoned (player-controlled) units.</li>
+		</ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/power_origin.png">
+		<h1>Power Spark:</h1>
+        <ul>
+			<li>Power Splash changed to Triangle Power.</li>
+			<li>Triangle Power: Attacks against neutral creeps deal 24 bonus pure damage for melee heroes, and 7 bonus pure damage for ranged.</li> 
+			<li>Triangle Power doesn't work on illusions. Damage cannot be amplified with spell amplification.</li>
+			<li>Triangle Power doesn't have an effect on summoned (player-controlled) units.</li>
+        </ul>
+</figure>
+<figure>
+    <img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/greater_power_treads.png">
+        <h1>Power Treads:</h1>
+        <ul>
+			<li>Power Splash changed to Triangle Power.</li>
+			<li>Triangle Power: Attacks against neutral creeps deal 40/60/90/135 bonus pure damage.</li>
+			<li>Triangle Power doesn't work on illusions. Damage cannot be amplified with spell amplification.</li>
+			<li>Triangle Power doesn't have an effect on summoned (player-controlled) units.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/reduction_orb_3.png">
+		<h1>Reduction Orb:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+    <img data-id="refresher">
+        <h1>Refresher Orb:</h1>
+        <ul>
+			<li>No longer gives +21/27 mana regen.</li>
+			<li>Now gives +1000/1500 health and +1000/1500 mana.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/sange_and_yasha_3.png">
+		<h1>Sange and Yasha:</h1>
+        <ul>
+			<li>Bonus movement speed increased from 16/20/24 to <font color="green">30</font>/<font color="green">35</font>/<font color="green">40</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="spirit_vessel">
+		<h1>Spirit Vessel:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/tranquil_origin.png">
+		<h1>Tranquil Spark:</h1>
+        <ul>
+			<li>Naturalize doesn't work on Ancient creeps anymore.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/spellicons/custom/greater_tranquils.png">
+		<h1>Tranquil Boots:</h1>
+        <ul>
+			<li>Naturalize doesn't work on Ancient creeps anymore.</li>
+		</ul>
+</figure>
+<figure>
+	<img data-id="yasha">
+		<h1>Yasha:</h1>
+        <ul>
+			<li>Bonus movement speed increased from 8/12 to <font color="green">20</font>/<font color="green">25</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/yasha_and_kaya_5.png">
+		<h1>Yasha and Kaya:</h1>
+        <ul>
+			<li>Cannot be disassembled anymore.</li>
+			<li>Mana loss reduction decreased from 26%/34%/42% to <font color="red">22%</font>/<font color="red">28%</font>/<font color="red">34%</font>.</li>
+			<li>Bonus movement speed increased from 16/20/24 to <font color="green">30</font>/<font color="green">35</font>/<font color="green">40</font>.</li>
+        </ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGHeroes">
+<div class="Inner" id="HeroChanges">
+    <h1 class="OrangeBoxHeader">Hero Changes</h1>
+<figure>
+		<img data-id="alchemist">
+		<h1>Alchemist:</h1>
+		<ul>
+			<li>Strength gain increased from 2.4 to <font color="green">2.8</font></li>
+			<li>Unstable Concoction mana cost reduced from 120/120/120/120/220/350 to <font color="green">120</font>.</li>
+			<li>Unstable Concoction max damage increased from 150/220/290/360/660/960 to 150/220/290/360/<font color="green">800</font>/<font color="green">1200</font>.</li>
+			<li>Chemical Rage cooldown reduced from 55 to 55/<font color="green">50</font>/<font color="green">45</font>/<font color="green">45</font>/<font color="green">45</font> seconds.</li>
+			<li>Level 25 Talent: +30 Chemical Rage Regeneration increased to +50.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="bristleback">
+		<h1>Bristleback:</h1>
+		<ul>
+			<li>Nasal Goo mana cost reduced from 12/16/20/24/48/96 to 12/16/20/24/<font color="green">28</font>/<font color="green">32</font>.</li>
+			<li>Quill Spray base damage increased from 20/40/60/80/100/120 to 20/40/60/80/<font color="green">120</font>/<font color="green">160</font>.</li>
+			<li>Quill Spray damage cap rescaled from 550/550/550/550/1100/2200 to <font color="green">2000</font> at all levels.</li>
+			<li>Warpath attack damage bonus per stack increased from 18/24/30/60/90 to 18/24/30/<font color="green">80</font>/<font color="green">140</font>.</li>
+			<li>Warpath max stacks reduced from 5/7/9/11/13 to 5/7/9/<font color="red">9</font>/<font color="red">9</font>.</li>
+			<li>Level 20 Talent: +25 Quill Stack Damage increased to <font color="green">+35</font>.</li>
+        </ul>
+</figure>
+<figure>
+		<img data-id="rattletrap">
+		<h1>Clockwerk:</h1>
+		<ul>
+            <li>Power Cogs mana cost reduced from 80/80/80/80/120/160 to <font color="green">80</font> at all levels.</li>
+			<li>Hookshot stun duration increased from 1/1.5/2/2.25/2.5 to 1/1.5/2/<font color="green">2.5</font>/<font color="green">3</font> seconds.</li>
+			<li>Level 15 Talent: +30 Battery Assault Damage increased to <font color="green">+45</font>.</li>
+			<li>Level 20 Talent: +125 Rocket Flare Damage increased to <font color="green">+300</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="death_prophet">
+		<h1>Death Prophet:</h1>
+		<ul>
+            <li>Crypt Swarm damage increased from 75/150/225/300/650/1050 to <font color="green">100</font>/<font color="green">175</font>/<font color="green">250</font>/<font color="green">325</font>/<font color="green">675</font>/<font color="green">1075</font>.</li>
+			<li>Silence cooldown increased from 12 to <font color="red">15</font>/<font color="red">14</font>/<font color="red">13</font>/12/12/12 seconds.</li>
+			<li>Silence duration increased from 3/3.5/4/4.5/5/5.5 to 3/<font color="green">4</font>/<font color="green">5</font>/<font color="green">6</font>/<font color="green">6</font>/<font color="green">6</font> seconds.</li>
+			<li>Exorcism spirits damage increased from 59-64/59-64/59-64/156-169/254-276 to <font color="green">69-74</font>/<font color="green">69-74</font>/<font color="green">69-74</font>/156-169/254-276.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="keeper_of_the_light">
+		<h1>Keeper of the Light:</h1>
+		<ul>
+            <li>Illuminate Max Channel Time reduced from 2/3/4/5/6/7 to 2/3/4/5/5/5 seconds.</li>
+			<li>Illuminate Damage/Heal Increase per Second improved from 100/100/100/100/200/300 to 100/100/100/100/<font color="green">250</font>/<font color="green">400</font>.</li>
+			<li>Illuminate Max Damage/Heal rescaled from 200/300/400/500/1200/2100 to 200/300/400/500/<font color="green">1250</font>/2000.</li>
+			<li>Blinding Light cooldown reduced from 30/25/20/15/12/12 to <font color="green">15</font> seconds at all levels.</li>
+			<li>Will-O-Wisp cooldown reduced from 120 to <font color="green">90</font> seconds.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="legion_commander">
+		<h1>Legion Commander:</h1>
+		<ul>
+            <li>Press the Attack cooldown reduced from 16/15/14/13/13/13 to 16/15/14/13/<font color="green">12</font>/<font color="green">11</font> seconds.</li>
+			<li>Press the Attack health regen bonus increased from 30/40/50/60/80/100 to 30/40/50/60/<font color="green">120</font>/<font color="green">200</font>.</li>
+			<li>Moment of Courage lifesteal increased from 55%/65%/75%/85%/90%/95% to 55%/65%/75%/85%/<font color="green">95%</font>/<font color="green">105%</font>.</li>
+			<li>Level 15 Talent: +50 Overwhelming Odds Hero Damage increased to <font color="green">+100</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="luna">
+		<h1>Luna:</h1>
+		<ul>
+            <li>Lunar Blessing Night Vision Bonus reduced from 200/400/600/800/1000/1500 to 200/400/600/800/1000/<font color="red">1200</font>.</li>
+			<li>Eclipse mana cost reduced from 150/200/250/500/1000 to 150/200/250/<font color="green">400</font>/<font color="green">550</font>.</li>
+			<li>Eclipse number of beams increased from 6/9/12/14/16 to 6/9/12/<font color="green">15</font>/<font color="green">18</font>.</li>
+			<li>Aghanim Scepter Eclipse number of beams increased from 8/11/14/16/18 to 8/<font color="green">12</font>/<font color="green">16</font>/<font color="green">20</font>/<font color="green">24</font>.</li>
+			<li>Aghanim Scepter Eclipse cast range reduced from 2500 to <font color="red">1600</font>.</li>
+			<li>Aghanim Scepter Eclipse beam interval reduced from 0.5 to <font color="green">0.4</font> seconds.</li>
+			<li>Aghanim Scepter Eclipse max beams per unit increased from 8/11/14/16/18 to 8/<font color="green">12</font>/<font color="green">16</font>/<font color="green">20</font>/<font color="green">24</font>.</li>
+			<li>Aghanim Scepter Eclipse duration rescaled from 3.5/5.5/7/8/9 to 3.2/4.8/6.4/8/9.6 seconds.</li>
+			<li>Level 20 Talent: +8 All Stats increased to <font color="green">+15</font>.</li>
+			<li>Level 25 Talent: +0.25s Eclipse Lucent Ministun reduced to <font color="red">+0.1s</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="monkey_king">
+		<h1>Monkey King</h1>
+		<ul>
+            <li>Readded to Unranked.</li>
+			<li>Wukong's Command reworked.</li>
+			<li>Wukong's Command soldiers now appear instantly.</li>
+			<li>Wukong's Command soldiers do not copy Abyssal Blade, Gem of TrueSight, Rapier, Arcane Spark, Arcane Boots, Guardian Greaves and items with charges anymore.</li>
+			<li>Wukong's Command soldiers can now attack creeps and bosses too and not only heroes.</li>
+			<li>Wukong's Command soldiers can now attack units that are outside of the circle.</li>
+			<li>Wukong's Command cannot be stolen by Rubick's Spell Steal.</li>
+			<li>Monkey King doesn't come down from a tree anymore when casting Wukong's Command.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="naga_siren">
+		<h1>Naga Siren:</h1>
+		<ul>
+            <li>Rip Tide damage increased from 30/40/50/60/105/160 to 30/40/50/60/<font color="green">120</font>/<font color="green">200</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="obsidian_destroyer">
+		<h1>Outworld Devourer:</h1>
+		<ul>
+            <li>Arcane Orb mana cost reduced from 110/140/170/200/260/360 to <font color="green">90</font>/<font color="green">110</font>/<font color="green">130</font>/<font color="green">150</font>/<font color="green">225</font>/<font color="green">300</font>.</li>
+			<li>Arcane Orb Current Mana as Damage increased from 6%/7%/8%/9%/10%/11% to <font color="green">8%</font>/<font color="green">9%</font>/<font color="green">10%</font>/<font color="green">11%</font>/<font color="green">12%</font>/<font color="green">13%</font>.</li>
+			<li>Astral Imprisonment cooldown reduced from 22/18/14/10/10/10 to <font color="green">16</font>/<font color="green">14</font>/<font color="green">12</font>/10/10/10 seconds.</li>
+			<li>Sanity's Eclipse cooldown reduced from 160 to <font color="green">110</font> seconds.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="phantom_assassin">
+		<h1>Phantom Assassin:</h1>
+		<ul>
+            <li>Blur cooldown increased from 35 to 60/55/50/45/40/35 seconds.</li>
+			<li>Blur evasion reduced from 20%/30%/40%/50%/60%/75% to 20%/30%/40%/50%/60%/<font color="red">70%</font>.</li>
+			<li>Blur duration reduced from 5/10/15/20/25/30 to <font color="red">4</font>/<font color="red">6</font>/<font color="red">8</font>/<font color="red">10</font>/<font color="red">12</font>/<font color="red">14</font> seconds.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="phantom_lancer">
+		<h1>Phantom Lancer:</h1>
+		<ul>
+            <li>Readded to Unranked.</li>
+			<li>Spirit Lance duration reduced from 2/4/6/8/14/20 to 2/4/6/8/<font color="red">8.5</font>/<font color="red">9</font> seconds.</li>
+			<li>Spirit Lance Aghanim Scepter upgrade removed.</li>
+			<li>Doppelganger cooldown rescaled from 30/25/20/15/15/15 to <font color="green">25</font>/<font color="red">22</font>/20/<font color="red">18</font>/<font color="red">16</font>/15 seconds.</li>
+			<li>Doppelganger Second Illusion Damage Dealt increased from 20% to <font color="green">50%</font>.</li>
+			<li>Doppelganger Gathered Illusion Duration Extension reduced from 2 to <font color="red">1</font> second.</li>
+			<li>Phantom Rush Maximum Proc Distance reduced from 1200 to <font color="red">1100</font>.</li>
+			<li>Juxtapose Max Illusions reduced from 4/6/8/8/8 to <font color="red">4</font> at all levels.</li>
+			<li>Juxtapose Illusion Damage Taken reduced from 650% to <font color="red">500%</font>.</li>
+			<li>Juxtapose Illusion Damage Dealt increased from 20%/20%/20%/24%/28% to <font color="green">24%</font>/<font color="green">32%</font>/<font color="green">40%</font>/<font color="green">48%</font>/<font color="green">56%</font>.</li>
+			<li>Level 20 Talent: +5 Max Juxtapose Illusions talent replaced with <font color="red">+25 Strength</font>.</li>
+			<li>Level 25 Talent: -6s Doppelganger CD talent replaced with <font color="red">+80 Health Regen</font>.</li>
+		</ul>
+</figure>
+<figure>
+        <img data-id="customhero" src="https://darkoniusxng.github.io/oaa_changelogs_github/assets/npc_dota_hero_sohei.png">
+        <h1>Sohei:</h1>
+        <ul>
+            <li>Added Lore texts to abilities.</li>
+			<li>Base movement speed reduced from 325 to <font color="red">320</font>.</li>
+			<li>Base Intelligence reduced from 17 to <font color="red">15</font>.</li>
+			<li>Base mana regeneration reduced from 0.9 to <font color="red">0</font>.</li>
+			<li>Dash: Sohei is not invulnerable or spell immune during Dash anymore.</li>
+			<li>Dash charge restore time increased from 8 to <font color="red">12</font>/<font color="red">11</font>/<font color="red">10</font>/<font color="red">9</font>/8/7 seconds.</li>
+			<li>Dash max number of charges rescaled from 2/3/4/5/6/7 to 4 at all levels.</li>
+			<li>Dash mana cost increased from 50 to <font color="red">75</font>.</li>
+			<li>Wholeness of Body casting type is now immediate. Already 0 cast point.</li>
+			<li>Wholeness of Body cooldown reduced from 20 to <font color="green">17</font> seconds.</li>
+			<li>Wholeness of Body bonus status resistance reduced from 100% to <font color="red">90%</font>.</li>
+			<li>Wholeness of Body duration increased from 5 to <font color="green">8</font> seconds.</li>
+			<li>Wholeness of Body now applies <font color="green">Strong Dispel</font> on the caster before status resistance buff instead of Basic Dispel. Cannot be used while stunned. Applies Strong Dispel on the target when Wholeness of Body Can Be Cast On Allies talent is taken.</li>
+			<li>Wholeness of Body cast range (with Wholeness of Body Can Be Cast On Allies talent) decreased from 1800 to <font color="red">900</font>.</li>
+			<li>Wholeness of Body buff is now <font color="red">dispellable(purgable)</font>.</li>
+			<li>Momentum: Fixed not being auto-toggled ON after respawn.</li>
+			<li>Flurry of Blows cooldown increased from 70/65/60/55/50 to <font color="red">75</font> seconds.</li>
+			<li>Level 10 Talent: +25% Cleave talent replaced with <font color="green">Wholeness of Body Can Be Cast On Allies</font>.</li>
+			<li>Level 20 Talent (left): Wholeness of Body Can Be Cast On Allies talent replaced with <font color="green">+40% Cleave</font>.</li>
+			<li>Level 20 Talent (right): +60 Movement speed reduced to <font color="red">+50</font>.</li>
+        </ul>
+</figure>
+<figure>
+		<img data-id="storm_spirit">
+		<h1>Storm Spirit:</h1>
+		<ul>
+            <li>Static Remnant damage increased from 120/175/230/285/340/395 to 120/175/230/285/<font color="green">400</font>/<font color="green">510</font>.</li>
+			<li>Static Remnant mana cost increased from 70/80/90/100/110/120 to 70/80/90/100/<font color="red">200</font>/<font color="red">300</font>.</li>
+			<li>Electric Vortex mana cost reduced from 60/70/80/90/190/340 to 60/70/80/90/190/<font color="green">290</font>.</li>
+			<li>Overload damage increased from 50/70/90/110/220/330 to 50/<font color="green">75</font>/<font color="green">100</font>/<font color="green">125</font>/<font color="green">250</font>/<font color="green">375</font>.</li>
+			<li>Ball Lightning activation mana cost increased from 30+10% to <font color="red">2+14%</font>.</li>
+			<li>Ball Lightning mana cost per 100 units changed from 12+0.7% to <font color="green">2</font>+<font color="red">1.3%</font>.</li>
+			<li>Ball Lightning damage per 100 units increased from 8/12/16/20/24 to 8/12/16/<font color="green">22</font>/<font color="green">28</font>.</li>
+			<li>Level 10 Talent: +30 Overload Damage talent replaced with <font color="green">+30 Attack Speed</font>.</li>
+			<li>Level 20 Talent: +30 Attack Speed talent replaced with <font color="green">Overload Pierces Immunity</font>.</li>
+			<li>Leved 25 Talent (left): 500 Distance Auto Remnant in Ball Lightning increased to <font color="red">750</font>.</li>
+			<li>Level 25 Talent (right): Overload Pierces Immunity talent replaced with <font color="green">+500 Overload Damage</font>.</li>
+		</ul>
+</figure>
+<figure>
+		<img data-id="tusk">
+		<h1>Tusk:</h1>
+		<ul>
+            <li>Tag Team mana cost reduced from 70/70/70/70/100/150 to <font color="green">70</font> at all levels.</li>
+        </ul>
+</figure>
+<figure>
+		<img data-id="undying">
+		<h1>Undying:</h1>
+		<ul>
+			<li>Flesh Golem cooldown reduced from 125 to <font color="green">90</font> seconds.</li>
+        </ul>
+</figure>
+</div>
+</div>
+</div>
+<div id="LinkContainer">
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/520.html">Previous</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/home.html">Home</a>
+	<a id="Link" href="https://darkoniusxng.github.io/oaa_changelogs_github/pages/542.html">Next</a>
+</div>
+</body>
+</html>
