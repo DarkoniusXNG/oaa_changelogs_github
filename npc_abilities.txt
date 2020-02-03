@@ -151,6 +151,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_HIDDEN"
 		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
 		"AbilityCastAnimation"			"ACT_DOTA_GENERIC_CHANNEL_1"
+		"MaxLevel"						"1"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -8251,6 +8252,7 @@
 			{
 				"var_type"			"FIELD_FLOAT"
 				"creep_duration"	"10.0"
+				"LinkedSpecialBonus"	"special_bonus_unique_crystal_maiden_1"
 			}
 			"05"
 			{
@@ -36287,12 +36289,13 @@
 	"void_spirit_astral_step"
 	{
 		// General
-		//-------------------------------------------------------------------------------------------------------------
+ 	//-------------------------------------------------------------------------------------------------------------
 		"ID"							"7705"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES"
-		//"AbilityUnitDamageType"			"DAMAGE_TYPE_PHYSICAL"
 		"AbilityType"					"DOTA_ABILITY_TYPE_ULTIMATE"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_YES"
+		"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_VoidSpirit.AstralStep.Start"
 		"AnimationPlaybackRate"			"1.5" // 1.0 corresponds to cast point of 0.3
@@ -36458,7 +36461,7 @@
 	}
 
 	//=================================================================================================================
-	// Ability: Special Bonus
+	// Ability: Special Bonus (Astral Step Cast Range)
 	//=================================================================================================================
 	"special_bonus_unique_void_spirit_2"
 	{
@@ -36475,7 +36478,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"value"					"1" // (Pulse Dodges Projectiles)
+				"value"					"400"
 			}
 		}
 	}
@@ -40017,7 +40020,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"10000"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"ID"							"393"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"MaxLevel"				"1"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE"
 
@@ -40060,7 +40063,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"ID"							"10001"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"ID"							"394"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_NO_TARGET"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"MaxLevel"						"1"
@@ -40094,7 +40097,7 @@
 	{
 		// General
 		//-------------------------------------------------------------------------------------------------------------
-		"ID"					"10002"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
+		"ID"					"395"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_AOE"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"	
 		"MaxLevel"						"1"
