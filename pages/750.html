@@ -5,7 +5,7 @@
 	<meta name="generator" content="Silex v2.2.7">
 	<link rel="shortcut icon" href="https://darkoniusxng.github.io/oaa_changelogs_github/assets/OAA.ico">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<title>OAA 7.4.? Changelog</title>
+	<title>OAA 7.5.0 Changelog</title>
 	<script type="text/javascript" src="https://darkoniusxng.github.io/oaa_changelogs_github/js/script.js" ></script>
 	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/radiance.css" rel="stylesheet" type="text/css">
 	<link href="https://darkoniusxng.github.io/oaa_changelogs_github/css/470.css" rel="stylesheet" type="text/css">
@@ -15,12 +15,41 @@
 
 <div class="SubContainer" id="BGGameplay">
 <div class="Inner" id="GeneralChanges">
-    <h1>Open Angel Arena 7.4.? Update</h1> 
+    <h1>Open Angel Arena 7.5.0 Update</h1> 
     <h1 class="OrangeBoxHeader">General Changes</h1>
 <figure>
 	<ul>
+		<li>Power Spark: changed scaling to not be time dependent. Scaling formula is based on your starting damage (base damage at level 1) and current base damage.<em><del>Formula: 3188/61 + (4166 x current_average_base_damage - 7312 x starting_average_base_damage)/8723</del></em></li>
 		<li>Fixed Butterfly level 1 giving vanilla stats.</li>
 	</ul>
+</figure>
+</div>
+</div>
+<div class="SubContainer" id="BGItems">
+<div class="Inner" id="ItemChanges">
+    <h1 class="OrangeBoxHeader">Item Changes</h1>
+<figure>
+    <img data-id="sange">
+        <h1>Sange items:</h1>
+        <ul>
+			<li>Sange & Yasha, Kaya & Sange and Heaven's Halberd bonus status resistance reduced from 20%/21%/22%/23%/24% to <font color="red">16%</font>/<font color="red">17%</font>/<font color="red">18%</font>/<font color="red">19%</font>/<font color="red">20%</font>.</li>
+			<li>Sange & Yasha, Kaya & Sange and Heaven's Halberd bonus lifesteal and hp regen amplification reduced from 30%/32%/34%/36%/38% to <font color="red">24%</font>/<font color="red">26%</font>/<font color="red">28%</font>/<font color="red">30%</font>/<font color="red">32%</font>.</li>
+        </ul>
+</figure>
+<figure>
+    <img data-id="satanic">
+        <h1>Satanic:</h1>
+        <ul>
+			<li>Bonus strength reduced from 25/38/55/75/100 to 25/<font color="red">35</font>/<font color="red">50</font>/<font color="red">70</font>/<font color="red">95</font>.</li>
+			<li>Bonus damage reduced at level 5 from 150 to <font color="red">125</font>.</li>
+        </ul>
+</figure>
+<figure>
+	<img data-id="customitem" src="https://raw.githubusercontent.com/OpenAngelArena/oaa/master/game/resource/flash3/images/items/custom/vampire_2.png">
+		<h1>Vampire Fang:</h1>
+        <ul>
+			<li>Bonus strength reduced from 75/100 to <font color="red">70</font>/<font color="red">95</font>.</li>
+		</ul>
 </figure>
 </div>
 </div>
@@ -203,6 +232,17 @@
 		</ul>
 </figure>
 <figure>
+		<img data-id="pangolier">
+		<h1>Pangolier:</h1>
+		<ul>
+            <li>Replaced Heartpiercer with Lucky Shot.</li>
+			<li>Lucky Shot duration scaling is lower than normal dota: 2/2.5/3/3.5/4/5 seconds.</li>
+			<li>Lucky Shot disarm and armor reduction duration can be reduced with status resistance.</li>
+			<li>Lucky Shot disarm cannot be applied to bosses. <em><del>Armor reduction and slow work normally.</del></em></li>
+			<li>Rolling Thunder stun is now applied only once when used against bosses with siltbreaker protection.</li>
+		</ul>
+</figure>
+<figure>
 		<img data-id="phantom_assassin">
 		<h1>Phantom Assassin:</h1>
 		<ul>
@@ -240,6 +280,17 @@
 		<ul>
             <li>Nethertoxin now works on bosses with siltbreaker protection.</li>
 		</ul>
+</figure>
+<figure>
+		<img data-id="void_spirit">
+		<h1>Void Spirit:</h1>
+		<ul>
+            <li>Aether Remnant mana cost increased at OAA levels from 125/150 to <font color="red">200</font>/<font color="red">300</font>.</li>
+			<li>Dissimilate damage reduced at OAA levels from 780/1280 to <font color="red">760</font>/<font color="red">1140</font>.</li>
+			<li>Dissimilate mana cost increased at OAA levels from 160/190 to <font color="red">260</font>/<font color="red">390</font>.</li>
+			<li>Astral Step charge restore time increased from 30/25/20/15/15 to 25 seconds at all levels.</li>
+			<li>Level 25 Talent: Dissimilate Stuns stun duration reduced from 3 to <font color="red">2</font> seconds.</li>
+        </ul>
 </figure>
 <figure>
 		<img data-id="windrunner">
