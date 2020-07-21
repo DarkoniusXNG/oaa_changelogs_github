@@ -16213,6 +16213,7 @@
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
 		"AbilitySound"					"Hero_Clinkz.DeathPact"
+		"AbilityDraftUltScepterAbility" "clinkz_burning_army"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
@@ -33702,7 +33703,7 @@
 		
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCastRange"				"1200"
+		"AbilityCastRange"				"900"
 
 		"AbilitySpecial"
 		{
@@ -68159,7 +68160,7 @@
 			"01"
 			{
 				"var_type"					"FIELD_INTEGER"
-				"value"				"20"
+				"value"				"18"
 				"ad_linked_ability"			"broodmother_spawn_spiderlings"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
 			}
 		}
