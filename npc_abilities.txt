@@ -23309,7 +23309,8 @@
 				"levelkey"		"quaslevel"
 			}
 			"spirit_hp"				
-			{	"value"			"300 400 500 600 700 800 900 1000"
+			{	
+			    "value"			"300 400 500 600 700 800 900 1000"
 				"levelkey"		"quaslevel"
 			}
 			"spirit_duration"
