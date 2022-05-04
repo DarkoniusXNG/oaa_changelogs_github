@@ -34576,7 +34576,7 @@
 				"value"								"525"
 				"RequiresScepter"					"1"
 			}
-			redirect_range_scepter
+			"redirect_range_scepter"
 			{
 				"value"								"1600"
 				"RequiresScepter"					"1"
