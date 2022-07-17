@@ -3860,11 +3860,6 @@
 		"AbilityCastGestureSlot"		"DEFAULT"
 		"AbilityCastPoint"				"0.55"
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"10"
-
-
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"75 80 85 90"
@@ -3873,6 +3868,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
+				"AbilityCooldown"				"10"
+
 				"shadowraze_damage"	
 				{
 					"value"				"90 160 230 300"	
@@ -3916,11 +3913,6 @@
 		"AbilityCastGestureSlot"		"DEFAULT"
 		"AbilityCastPoint"				"0.55"
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"10"
-
-
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"75 80 85 90"
@@ -3929,6 +3921,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
+				"AbilityCooldown"				"10"
+
 				"shadowraze_damage"	
 				{
 					"value"				"90 160 230 300"	
@@ -3973,10 +3967,6 @@
 		"AbilityCastGestureSlot"		"DEFAULT"
 		"AbilityCastPoint"				"0.55"
 
-		// Time		
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilityCooldown"				"10"
-
 		// Cost
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityManaCost"				"75 80 85 90"
@@ -3985,6 +3975,8 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"AbilityValues"
 		{
+			"AbilityCooldown"				"10"
+
 			"shadowraze_damage"	
 			{
 				"value"				"90 160 230 300"	
@@ -13470,6 +13462,11 @@
 			{
 				"var_type"				"FIELD_INTEGER"
 				"projectile_speed"			"1000"
+			}
+			"07"
+			{
+				"var_type"				"FIELD_FLOAT"
+				"max_damage_initial"	"-1"
 			}
 		}
 	}
@@ -23093,7 +23090,7 @@
 				"levelkey"		"quaslevel"
 			}
 			"spirit_hp"				
-			{	
+			{
 				"value"			"300 400 500 600 700 800 900 1000"
 				"levelkey"		"quaslevel"
 			}
@@ -30493,6 +30490,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_CUSTOM"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ALLIES_YES"
 		"SpellDispellableType"			"SPELL_DISPELLABLE_NO"
+		"LinkedAbility"					"wisp_tether_break"
 
 
 		// Casting
@@ -30743,7 +30741,7 @@
 		//-------------------------------------------------------------------------------------------------------------
 		"ID"							"5489"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET"
-		"MaxLevel"						"1"
+		"LinkedAbility"					"wisp_tether"
 
 		// Casting
 		//-------------------------------------------------------------------------------------------------------------
