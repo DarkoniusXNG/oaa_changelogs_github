@@ -1,9 +1,10 @@
 Abilities that cannot proc = {
     hidden abilities,
-	channeling abilities,
-	toggle abilities,
+    channeling abilities,
+    toggle abilities,
     abilities that cannot be stolen with Rubick Spell Steal,
-	items,
+    items,
+
     abaddon_borrowed_time = 1,                           -- invulnerability
     alchemist_unstable_concoction = 1,                   -- self grief
     arc_warden_tempest_double = 1,                       -- multiple Tempest Doubles and lag
