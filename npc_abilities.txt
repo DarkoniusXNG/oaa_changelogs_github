@@ -23023,7 +23023,8 @@
 				"levelkey"		"quaslevel"
 			}
 			"spirit_hp"				
-			{	"value"			"300 400 500 600 700 800 900 1000"
+			{
+				"value"			"300 400 500 600 700 800 900 1000"
 				"levelkey"		"quaslevel"
 			}
 			"spirit_duration"
@@ -33973,7 +33974,7 @@
 				"value"								"525"
 				"RequiresScepter"					"1"
 			}
-			redirect_range_scepter
+			"redirect_range_scepter"
 			{
 				"value"								"1200"
 				"RequiresScepter"					"1"
