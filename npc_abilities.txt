@@ -5931,7 +5931,7 @@
 		{
 				"damage"					
 				{
-					"value"				"20 40 60 80"
+					"value"				"25 50 75 100"
 					"special_bonus_unique_death_prophet_3"	"+30"
 				}
 
@@ -21982,7 +21982,6 @@
 			"radius"						
 			{
 				"value"										"1000"
-				"special_bonus_unique_gyrocopter_4"			"+300"
 			}
 			"max_attacks"
 			{
@@ -24446,7 +24445,6 @@
 			"crit_chance"			
 			{
 				"value"			"40"
-				"special_bonus_unique_lycan_5"	"+30"
 			}
 			"crit_multiplier"		"160 190 220"
 			"health_bonus"		"200 300 400"
@@ -24786,7 +24784,7 @@
 			"03"
 			{
 				"var_type"				"FIELD_FLOAT"
-				"duration"				"1.2 1.6 2.0 2.4"
+				"duration"				"1.1 1.6 2.1 2.6"
 			}
 			"04"
 			{
@@ -39568,7 +39566,6 @@
 			{
 				"var_type"					"FIELD_FLOAT"
 				"debuff_duration"			"1.0"
-				"LinkedSpecialBonus"		"special_bonus_unique_snapfire_2"
 			}
 			"06"
 			{
@@ -39939,16 +39936,7 @@
 		"ID"						"6487"	// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityType"				"DOTA_ABILITY_TYPE_ATTRIBUTES"
 		"AbilityBehavior"			"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"			"FIELD_FLOAT"
-				"value"				"1" 
-				"ad_linked_abilities"			"snapfire_scatterblast"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
-			}
-		}
+		"BaseClass"					"special_bonus_base"
 	}
 
  	//=================================================================================================================
@@ -40860,7 +40848,7 @@
 			"01"
 			{
 				"var_type"				"FIELD_INTEGER"
-				"hammer_damage"			"60 90 120 150"
+				"hammer_damage"			"50 80 110 140"
 				"LinkedSpecialBonus"		"special_bonus_unique_dawnbreaker_celestial_blade"
 			}
 			"02"
@@ -41412,7 +41400,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Marci.Grapple.Cast"
 
@@ -41528,7 +41516,7 @@
 		"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP"
 		"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
 		"SpellImmunityType"				"SPELL_IMMUNITY_ENEMIES_NO"
-		"SpellDispellableType"			"SPELL_DISPELLABLE_YES"
+		"SpellDispellableType"			"SPELL_DISPELLABLE_YES_STRONG"
 		"FightRecapLevel"				"1"
 		"AbilitySound"					"Hero_Marci.Rebound.Cast"
 		"HasShardUpgrade"				"1"
@@ -75588,18 +75576,7 @@
 		"ID"					"6653"														// unique ID number for this ability.  Do not change this once established or it will invalidate collected stats.
 		"AbilityType"					"DOTA_ABILITY_TYPE_ATTRIBUTES"
 		"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_PASSIVE"
-		
-		// Special
-		//-------------------------------------------------------------------------------------------------------------
-		"AbilitySpecial"
-		{
-			"01"
-			{
-				"var_type"					"FIELD_INTEGER"
-				"value"				"300"
-				"ad_linked_abilities"			"gyrocopter_flak_cannon"				// this is the ability this bonus affects.  This line is required for Ability Draft to correctly choose talents.
-			}
-		}
+		"BaseClass"						"special_bonus_base"
 	}
 
 	//=================================================================================================================
