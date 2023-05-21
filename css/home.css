@@ -1,6 +1,6 @@
 body {
   background-color: #0d0d0d;
-  background-image: url('../assets/bg_repeater.jpg');
+  background-image: url('../assets/bg_repeater.jpg'); /* ../ serves as going back one folder */
   width: 1366px;
   margin-left: auto; 
   margin-right: auto;
@@ -21,7 +21,7 @@ h2 {
 a {
   font-size: 30px;
   color: white;
-  text-decoration: none;
+  text-decoration: none; /* removes underline for links */
 }
 img {
   width: 90%;
