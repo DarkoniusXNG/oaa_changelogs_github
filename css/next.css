@@ -216,12 +216,14 @@ em:hover del {
   line-height: normal;
   margin-left:auto;
   margin-right:auto;
+  position:fixed;
+  z-index: 10;
 }
 .Link
 {
     position: relative;
 	display: inline-block;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 3px 3px 3px 3px; /* for rounding the edges of the block */
     background-color: #111C26;
     border: 1px solid #336391;
     width: 200px;
